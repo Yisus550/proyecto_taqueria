@@ -115,6 +115,7 @@
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new Size(179, 35);
             txtUsuario.TabIndex = 3;
+            txtUsuario.Text = "Admin";
             // 
             // txtPassword
             // 
@@ -124,6 +125,7 @@
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(179, 35);
             txtPassword.TabIndex = 4;
+            txtPassword.Text = "admin123";
             // 
             // btnIngresar
             // 
