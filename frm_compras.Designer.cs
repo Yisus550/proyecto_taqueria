@@ -29,21 +29,31 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            numericUpDown1 = new NumericUpDown();
+            label4 = new Label();
             richTextBox1 = new RichTextBox();
             label2 = new Label();
             label3 = new Label();
             pictureBox1 = new PictureBox();
             label1 = new Label();
-            label4 = new Label();
-            numericUpDown1 = new NumericUpDown();
+            listBox1 = new ListBox();
+            label5 = new Label();
+            btnAgregar = new Button();
+            btnActualizar = new Button();
+            btnReset = new Button();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(245, 158, 0);
+            panel1.Controls.Add(btnReset);
+            panel1.Controls.Add(btnActualizar);
+            panel1.Controls.Add(btnAgregar);
+            panel1.Controls.Add(label5);
+            panel1.Controls.Add(listBox1);
             panel1.Controls.Add(numericUpDown1);
             panel1.Controls.Add(label4);
             panel1.Controls.Add(richTextBox1);
@@ -54,12 +64,32 @@
             panel1.Size = new Size(991, 461);
             panel1.TabIndex = 2;
             // 
+            // numericUpDown1
+            // 
+            numericUpDown1.Font = new Font("Noto Sans", 11F);
+            numericUpDown1.Location = new Point(102, 337);
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(150, 32);
+            numericUpDown1.TabIndex = 35;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Noto Sans", 12F, FontStyle.Bold);
+            label4.Location = new Point(98, 304);
+            label4.Name = "label4";
+            label4.Size = new Size(218, 30);
+            label4.TabIndex = 34;
+            label4.Text = "Monto de la compra:";
+            // 
             // richTextBox1
             // 
+            richTextBox1.BackColor = SystemColors.Window;
+            richTextBox1.BorderStyle = BorderStyle.FixedSingle;
             richTextBox1.Font = new Font("Noto Sans", 11F);
             richTextBox1.Location = new Point(102, 79);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(357, 171);
+            richTextBox1.Size = new Size(357, 184);
             richTextBox1.TabIndex = 33;
             richTextBox1.Text = "";
             // 
@@ -101,23 +131,53 @@
             label1.TabIndex = 11;
             label1.Text = "Compras";
             // 
-            // label4
+            // listBox1
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Noto Sans", 12F, FontStyle.Bold);
-            label4.Location = new Point(98, 304);
-            label4.Name = "label4";
-            label4.Size = new Size(218, 30);
-            label4.TabIndex = 34;
-            label4.Text = "Monto de la compra:";
+            listBox1.FormattingEnabled = true;
+            listBox1.Location = new Point(628, 79);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(271, 304);
+            listBox1.TabIndex = 36;
             // 
-            // numericUpDown1
+            // label5
             // 
-            numericUpDown1.Font = new Font("Noto Sans", 11F);
-            numericUpDown1.Location = new Point(102, 337);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(150, 32);
-            numericUpDown1.TabIndex = 35;
+            label5.AutoSize = true;
+            label5.Font = new Font("Noto Sans", 12F, FontStyle.Bold);
+            label5.Location = new Point(628, 46);
+            label5.Name = "label5";
+            label5.Size = new Size(188, 30);
+            label5.TabIndex = 37;
+            label5.Text = "Lista de compras:";
+            // 
+            // btnAgregar
+            // 
+            btnAgregar.Location = new Point(102, 393);
+            btnAgregar.Name = "btnAgregar";
+            btnAgregar.Size = new Size(94, 29);
+            btnAgregar.TabIndex = 38;
+            btnAgregar.Text = "Agregar";
+            btnAgregar.UseVisualStyleBackColor = true;
+            btnAgregar.Click += this.button1_Click;
+            // 
+            // btnActualizar
+            // 
+            btnActualizar.Enabled = false;
+            btnActualizar.Location = new Point(222, 393);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(94, 29);
+            btnActualizar.TabIndex = 39;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = true;
+            // 
+            // btnReset
+            // 
+            btnReset.Enabled = false;
+            btnReset.Location = new Point(347, 393);
+            btnReset.Name = "btnReset";
+            btnReset.Size = new Size(94, 29);
+            btnReset.TabIndex = 40;
+            btnReset.Text = "Reset";
+            btnReset.UseVisualStyleBackColor = true;
             // 
             // frm_compras
             // 
@@ -132,8 +192,8 @@
             Text = "Compras";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -148,5 +208,10 @@
         private RichTextBox richTextBox1;
         private Label label4;
         private NumericUpDown numericUpDown1;
+        private Label label5;
+        private ListBox listBox1;
+        private Button btnAgregar;
+        private Button btnActualizar;
+        private Button btnReset;
     }
 }
