@@ -31,5 +31,10 @@ namespace proyecto_pos
         {
             new frm_login().ShowDialog();
         }
+
+        private void comprasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new Compras().ShowDialog();
+        }
     }
 }
