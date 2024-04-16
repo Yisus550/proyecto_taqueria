@@ -93,6 +93,16 @@ namespace proyecto_pos.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap canasta {
+            get {
+                object obj = ResourceManager.GetObject("canasta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap desconocido {
             get {
                 object obj = ResourceManager.GetObject("desconocido", resourceCulture);

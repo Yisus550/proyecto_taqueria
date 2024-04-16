@@ -34,7 +34,7 @@ namespace proyecto_pos
 
         private void comprasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new Compras().ShowDialog();
+            new frm_compras().ShowDialog();
         }
     }
 }
