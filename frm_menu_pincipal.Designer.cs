@@ -94,41 +94,25 @@
             // usuariosToolStripMenuItem
             // 
             usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-//<<<<<<< HEAD
-            usuariosToolStripMenuItem.Size = new Size(178, 30);
-//=======
             usuariosToolStripMenuItem.Size = new Size(168, 26);
-//>>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
             usuariosToolStripMenuItem.Text = "Usuarios";
             usuariosToolStripMenuItem.Click += usuariosToolStripMenuItem_Click;
             // 
             // perfilesToolStripMenuItem
             // 
             perfilesToolStripMenuItem.Name = "perfilesToolStripMenuItem";
-///<<<<<< HEAD
-            perfilesToolStripMenuItem.Size = new Size(178, 30);
-//=======
             perfilesToolStripMenuItem.Size = new Size(168, 26);
-//>>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
             perfilesToolStripMenuItem.Text = "Perfiles";
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-//<<<<<<< HEAD
-            toolStripSeparator1.Size = new Size(175, 6);
-//=======
             toolStripSeparator1.Size = new Size(165, 6);
-//>>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
             // 
             // productosToolStripMenuItem
             // 
             productosToolStripMenuItem.Name = "productosToolStripMenuItem";
-//<<<<<<< HEAD
-            productosToolStripMenuItem.Size = new Size(178, 30);
-//=======
             productosToolStripMenuItem.Size = new Size(168, 26);
-//>>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
             productosToolStripMenuItem.Text = "Productos";
             // 
             // operacionesMenuItem
@@ -141,43 +125,31 @@
             // ventasToolStripMenuItem
             // 
             ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
-//<<<<<<< HEAD
-            ventasToolStripMenuItem.Size = new Size(224, 30);
-//=======
-            ventasToolStripMenuItem.Size = new Size(224, 26);
-//>>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
+            ventasToolStripMenuItem.Size = new Size(164, 26);
             ventasToolStripMenuItem.Text = "Ventas";
             ventasToolStripMenuItem.Click += VentasToolStripMenuItem_Click;
             // 
             // toolStripSeparator4
             // 
             toolStripSeparator4.Name = "toolStripSeparator4";
-            toolStripSeparator4.Size = new Size(221, 6);
+            toolStripSeparator4.Size = new Size(161, 6);
             // 
             // comprasToolStripMenuItem
             // 
             comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
-//<<<<<<< HEAD
-            comprasToolStripMenuItem.Size = new Size(224, 30);
-//=======
-            comprasToolStripMenuItem.Size = new Size(224, 26);
-//>>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
+            comprasToolStripMenuItem.Size = new Size(164, 26);
             comprasToolStripMenuItem.Text = "Compras";
             comprasToolStripMenuItem.Click += comprasToolStripMenuItem_Click;
             // 
             // toolStripSeparator3
             // 
             toolStripSeparator3.Name = "toolStripSeparator3";
-            toolStripSeparator3.Size = new Size(221, 6);
+            toolStripSeparator3.Size = new Size(161, 6);
             // 
             // inventarioToolStripMenuItem
             // 
             inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
-//<<<<<<< HEAD
-            inventarioToolStripMenuItem.Size = new Size(224, 30);
-//=======
-            inventarioToolStripMenuItem.Size = new Size(224, 26);
-//>>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
+            inventarioToolStripMenuItem.Size = new Size(164, 26);
             inventarioToolStripMenuItem.Text = "Inventario";
             // 
             // reportesMenuItem
@@ -228,6 +200,7 @@
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Margin = new Padding(3, 4, 3, 4);
+            MaximizeBox = false;
             Name = "frm_menu_pincipal";
             Text = "Menu Pincipal";
             WindowState = FormWindowState.Maximized;
