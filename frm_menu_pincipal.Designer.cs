@@ -94,41 +94,41 @@
             // usuariosToolStripMenuItem
             // 
             usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-<<<<<<< HEAD
+//<<<<<<< HEAD
             usuariosToolStripMenuItem.Size = new Size(178, 30);
-=======
+//=======
             usuariosToolStripMenuItem.Size = new Size(168, 26);
->>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
+//>>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
             usuariosToolStripMenuItem.Text = "Usuarios";
             usuariosToolStripMenuItem.Click += usuariosToolStripMenuItem_Click;
             // 
             // perfilesToolStripMenuItem
             // 
             perfilesToolStripMenuItem.Name = "perfilesToolStripMenuItem";
-<<<<<<< HEAD
+///<<<<<< HEAD
             perfilesToolStripMenuItem.Size = new Size(178, 30);
-=======
+//=======
             perfilesToolStripMenuItem.Size = new Size(168, 26);
->>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
+//>>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
             perfilesToolStripMenuItem.Text = "Perfiles";
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-<<<<<<< HEAD
+//<<<<<<< HEAD
             toolStripSeparator1.Size = new Size(175, 6);
-=======
+//=======
             toolStripSeparator1.Size = new Size(165, 6);
->>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
+//>>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
             // 
             // productosToolStripMenuItem
             // 
             productosToolStripMenuItem.Name = "productosToolStripMenuItem";
-<<<<<<< HEAD
+//<<<<<<< HEAD
             productosToolStripMenuItem.Size = new Size(178, 30);
-=======
+//=======
             productosToolStripMenuItem.Size = new Size(168, 26);
->>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
+//>>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
             productosToolStripMenuItem.Text = "Productos";
             // 
             // operacionesMenuItem
@@ -141,13 +141,13 @@
             // ventasToolStripMenuItem
             // 
             ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
-<<<<<<< HEAD
+//<<<<<<< HEAD
             ventasToolStripMenuItem.Size = new Size(224, 30);
-=======
+//=======
             ventasToolStripMenuItem.Size = new Size(224, 26);
->>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
+//>>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
             ventasToolStripMenuItem.Text = "Ventas";
-            ventasToolStripMenuItem.Click += ventasToolStripMenuItem_Click;
+            ventasToolStripMenuItem.Click += VentasToolStripMenuItem_Click;
             // 
             // toolStripSeparator4
             // 
@@ -157,11 +157,11 @@
             // comprasToolStripMenuItem
             // 
             comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
-<<<<<<< HEAD
+//<<<<<<< HEAD
             comprasToolStripMenuItem.Size = new Size(224, 30);
-=======
+//=======
             comprasToolStripMenuItem.Size = new Size(224, 26);
->>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
+//>>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
             comprasToolStripMenuItem.Text = "Compras";
             comprasToolStripMenuItem.Click += comprasToolStripMenuItem_Click;
             // 
@@ -173,11 +173,11 @@
             // inventarioToolStripMenuItem
             // 
             inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
-<<<<<<< HEAD
+//<<<<<<< HEAD
             inventarioToolStripMenuItem.Size = new Size(224, 30);
-=======
+//=======
             inventarioToolStripMenuItem.Size = new Size(224, 26);
->>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
+//>>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
             inventarioToolStripMenuItem.Text = "Inventario";
             // 
             // reportesMenuItem
@@ -236,6 +236,11 @@
             menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void VentasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion

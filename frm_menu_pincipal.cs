@@ -32,15 +32,10 @@ namespace proyecto_pos
             new frm_login().ShowDialog();
         }
 
-<<<<<<< HEAD
+        //<<<<<<< HEAD
         private void comprasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             new frm_compras().ShowDialog();
-=======
-        private void ventasToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new Venta().ShowDialog();   
->>>>>>> 69e8574baef13df348d53306070ecbe6ba0abef5
+
         }
-    }
-}
+    } }
