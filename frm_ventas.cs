@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace proyecto_pos
 {
-    public partial class Venta : Form
+    public partial class frm_ventas : Form
     {
-        public Venta()
+        public frm_ventas()
         {
             InitializeComponent();
             

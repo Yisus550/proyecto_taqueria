@@ -1,6 +1,6 @@
 ﻿namespace proyecto_pos
 {
-    partial class Venta
+    partial class frm_ventas
     {
         /// <summary>
         /// Required designer variable.
