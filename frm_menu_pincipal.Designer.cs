@@ -240,11 +240,7 @@
 
         private void VentasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
             new Venta().ShowDialog();
-=======
-            throw new NotImplementedException();
->>>>>>> 27de491509715391c95942b2e220ce17e4928ad0
         }
 
         #endregion
