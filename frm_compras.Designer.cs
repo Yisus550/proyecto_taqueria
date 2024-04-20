@@ -29,6 +29,11 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            btnReset = new Button();
+            btnActualizar = new Button();
+            btnAgregar = new Button();
+            label5 = new Label();
+            listBox1 = new ListBox();
             numericUpDown1 = new NumericUpDown();
             label4 = new Label();
             richTextBox1 = new RichTextBox();
@@ -36,11 +41,6 @@
             label3 = new Label();
             pictureBox1 = new PictureBox();
             label1 = new Label();
-            listBox1 = new ListBox();
-            label5 = new Label();
-            btnAgregar = new Button();
-            btnActualizar = new Button();
-            btnReset = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -63,6 +63,53 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(991, 461);
             panel1.TabIndex = 2;
+            // 
+            // btnReset
+            // 
+            btnReset.Enabled = false;
+            btnReset.Location = new Point(347, 393);
+            btnReset.Name = "btnReset";
+            btnReset.Size = new Size(94, 29);
+            btnReset.TabIndex = 40;
+            btnReset.Text = "Reset";
+            btnReset.UseVisualStyleBackColor = true;
+            // 
+            // btnActualizar
+            // 
+            btnActualizar.Enabled = false;
+            btnActualizar.Location = new Point(222, 393);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(94, 29);
+            btnActualizar.TabIndex = 39;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = true;
+            // 
+            // btnAgregar
+            // 
+            btnAgregar.Location = new Point(102, 393);
+            btnAgregar.Name = "btnAgregar";
+            btnAgregar.Size = new Size(94, 29);
+            btnAgregar.TabIndex = 38;
+            btnAgregar.Text = "Agregar";
+            btnAgregar.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Noto Sans", 12F, FontStyle.Bold);
+            label5.Location = new Point(628, 46);
+            label5.Name = "label5";
+            label5.Size = new Size(188, 30);
+            label5.TabIndex = 37;
+            label5.Text = "Lista de compras:";
+            // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.Location = new Point(628, 79);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(271, 304);
+            listBox1.TabIndex = 36;
             // 
             // numericUpDown1
             // 
@@ -131,54 +178,6 @@
             label1.TabIndex = 11;
             label1.Text = "Compras";
             // 
-            // listBox1
-            // 
-            listBox1.FormattingEnabled = true;
-            listBox1.Location = new Point(628, 79);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(271, 304);
-            listBox1.TabIndex = 36;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Noto Sans", 12F, FontStyle.Bold);
-            label5.Location = new Point(628, 46);
-            label5.Name = "label5";
-            label5.Size = new Size(188, 30);
-            label5.TabIndex = 37;
-            label5.Text = "Lista de compras:";
-            // 
-            // btnAgregar
-            // 
-            btnAgregar.Location = new Point(102, 393);
-            btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(94, 29);
-            btnAgregar.TabIndex = 38;
-            btnAgregar.Text = "Agregar";
-            btnAgregar.UseVisualStyleBackColor = true;
-            btnAgregar.Click += this.button1_Click;
-            // 
-            // btnActualizar
-            // 
-            btnActualizar.Enabled = false;
-            btnActualizar.Location = new Point(222, 393);
-            btnActualizar.Name = "btnActualizar";
-            btnActualizar.Size = new Size(94, 29);
-            btnActualizar.TabIndex = 39;
-            btnActualizar.Text = "Actualizar";
-            btnActualizar.UseVisualStyleBackColor = true;
-            // 
-            // btnReset
-            // 
-            btnReset.Enabled = false;
-            btnReset.Location = new Point(347, 393);
-            btnReset.Name = "btnReset";
-            btnReset.Size = new Size(94, 29);
-            btnReset.TabIndex = 40;
-            btnReset.Text = "Reset";
-            btnReset.UseVisualStyleBackColor = true;
-            // 
             // frm_compras
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -188,7 +187,10 @@
             Controls.Add(pictureBox1);
             Controls.Add(label3);
             Controls.Add(panel1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "frm_compras";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Compras";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
