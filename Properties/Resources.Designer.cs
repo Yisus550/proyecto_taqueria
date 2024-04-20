@@ -93,6 +93,36 @@ namespace proyecto_pos.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BARBACOA_modified {
+            get {
+                object obj = ResourceManager.GetObject("BARBACOA-modified", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BARBACOA_modified1 {
+            get {
+                object obj = ResourceManager.GetObject("BARBACOA-modified1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BURRITOS_modified {
+            get {
+                object obj = ResourceManager.GetObject("BURRITOS-modified", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap canasta {
             get {
                 object obj = ResourceManager.GetObject("canasta", resourceCulture);
@@ -103,9 +133,39 @@ namespace proyecto_pos.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CANASTA_modified {
+            get {
+                object obj = ResourceManager.GetObject("CANASTA-modified", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CARNITAS_modified {
+            get {
+                object obj = ResourceManager.GetObject("CARNITAS-modified", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap desconocido {
             get {
                 object obj = ResourceManager.GetObject("desconocido", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DORADOS_modified {
+            get {
+                object obj = ResourceManager.GetObject("DORADOS-modified", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -156,6 +216,16 @@ namespace proyecto_pos.Properties {
         internal static System.Drawing.Bitmap lupa1 {
             get {
                 object obj = ResourceManager.GetObject("lupa1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PASTOR_modified {
+            get {
+                object obj = ResourceManager.GetObject("PASTOR-modified", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
