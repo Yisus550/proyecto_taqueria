@@ -21,7 +21,8 @@ SET time_zone = "+00:00";
 -- Base de datos: `punto_venta`
 --
 
--- --------------------------------------------------------
+CREATE DATABASE IF NOT EXISTS `punto_venta`;
+USE `punto_venta`;
 
 --
 -- Estructura de tabla para la tabla `usuarios`
