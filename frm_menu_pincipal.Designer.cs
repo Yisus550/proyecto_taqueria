@@ -46,7 +46,35 @@
             impresoraToolStripMenuItem = new ToolStripMenuItem();
             cambiarContraseñaToolStripMenuItem = new ToolStripMenuItem();
             salirMenuItem = new ToolStripMenuItem();
+            panelMenu = new Panel();
+            btnSalir2 = new Button();
+            panelConfiguraciones = new Panel();
+            btnCambiarContra = new Button();
+            btnImpresora = new Button();
+            btnConfiguraciones = new Button();
+            panelReportes = new Panel();
+            btnVentas = new Button();
+            btnReportes = new Button();
+            panelOperaciones = new Panel();
+            btnInventario = new Button();
+            btnCompras = new Button();
+            button2 = new Button();
+            btnOperaciones = new Button();
+            panelCatalogo = new Panel();
+            btnUsuarios = new Button();
+            btnCatalogo = new Button();
+            panelSubmenuArchivo = new Panel();
+            btnSalir = new Button();
+            btnCorreo = new Button();
+            btnArchivo = new Button();
+            panelLogo = new Panel();
             menuStrip1.SuspendLayout();
+            panelMenu.SuspendLayout();
+            panelConfiguraciones.SuspendLayout();
+            panelReportes.SuspendLayout();
+            panelOperaciones.SuspendLayout();
+            panelCatalogo.SuspendLayout();
+            panelSubmenuArchivo.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
@@ -72,14 +100,15 @@
             // correoMenuItem
             // 
             correoMenuItem.Name = "correoMenuItem";
-            correoMenuItem.Size = new Size(224, 26);
+            correoMenuItem.Size = new Size(143, 26);
             correoMenuItem.Text = "Correo";
             // 
             // salirMenuItem2
             // 
             salirMenuItem2.Name = "salirMenuItem2";
-            salirMenuItem2.Size = new Size(224, 26);
+            salirMenuItem2.Size = new Size(143, 26);
             salirMenuItem2.Text = "Salir";
+            salirMenuItem2.Click += salirMenuItem2_Click;
             // 
             // catalogosMenuItem
             // 
@@ -91,7 +120,7 @@
             // usuariosToolStripMenuItem
             // 
             usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            usuariosToolStripMenuItem.Size = new Size(224, 26);
+            usuariosToolStripMenuItem.Size = new Size(159, 26);
             usuariosToolStripMenuItem.Text = "Usuarios";
             usuariosToolStripMenuItem.Click += usuariosToolStripMenuItem_Click;
             // 
@@ -105,31 +134,31 @@
             // ventasToolStripMenuItem
             // 
             ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
-            ventasToolStripMenuItem.Size = new Size(224, 26);
+            ventasToolStripMenuItem.Size = new Size(164, 26);
             ventasToolStripMenuItem.Text = "Ventas";
             ventasToolStripMenuItem.Click += VentasToolStripMenuItem_Click;
             // 
             // toolStripSeparator4
             // 
             toolStripSeparator4.Name = "toolStripSeparator4";
-            toolStripSeparator4.Size = new Size(221, 6);
+            toolStripSeparator4.Size = new Size(161, 6);
             // 
             // comprasToolStripMenuItem
             // 
             comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
-            comprasToolStripMenuItem.Size = new Size(224, 26);
+            comprasToolStripMenuItem.Size = new Size(164, 26);
             comprasToolStripMenuItem.Text = "Compras";
             comprasToolStripMenuItem.Click += comprasToolStripMenuItem_Click;
             // 
             // toolStripSeparator3
             // 
             toolStripSeparator3.Name = "toolStripSeparator3";
-            toolStripSeparator3.Size = new Size(221, 6);
+            toolStripSeparator3.Size = new Size(161, 6);
             // 
             // inventarioToolStripMenuItem
             // 
             inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
-            inventarioToolStripMenuItem.Size = new Size(224, 26);
+            inventarioToolStripMenuItem.Size = new Size(164, 26);
             inventarioToolStripMenuItem.Text = "Inventario";
             // 
             // reportesMenuItem
@@ -142,7 +171,7 @@
             // ventasToolStripMenuItem1
             // 
             ventasToolStripMenuItem1.Name = "ventasToolStripMenuItem1";
-            ventasToolStripMenuItem1.Size = new Size(224, 26);
+            ventasToolStripMenuItem1.Size = new Size(144, 26);
             ventasToolStripMenuItem1.Text = "Ventas";
             // 
             // configuracionesMenuItem
@@ -171,12 +200,333 @@
             salirMenuItem.Text = "Salir";
             salirMenuItem.Click += salirMenuItem_Click;
             // 
+            // panelMenu
+            // 
+            panelMenu.AutoScroll = true;
+            panelMenu.BackColor = Color.FromArgb(245, 158, 0);
+            panelMenu.Controls.Add(btnSalir2);
+            panelMenu.Controls.Add(panelConfiguraciones);
+            panelMenu.Controls.Add(btnConfiguraciones);
+            panelMenu.Controls.Add(panelReportes);
+            panelMenu.Controls.Add(btnReportes);
+            panelMenu.Controls.Add(panelOperaciones);
+            panelMenu.Controls.Add(btnOperaciones);
+            panelMenu.Controls.Add(panelCatalogo);
+            panelMenu.Controls.Add(btnCatalogo);
+            panelMenu.Controls.Add(panelSubmenuArchivo);
+            panelMenu.Controls.Add(btnArchivo);
+            panelMenu.Controls.Add(panelLogo);
+            panelMenu.Dock = DockStyle.Left;
+            panelMenu.Location = new Point(0, 30);
+            panelMenu.Name = "panelMenu";
+            panelMenu.Size = new Size(250, 626);
+            panelMenu.TabIndex = 1;
+            // 
+            // btnSalir2
+            // 
+            btnSalir2.Dock = DockStyle.Top;
+            btnSalir2.FlatAppearance.BorderColor = Color.FromArgb(238, 238, 238);
+            btnSalir2.FlatAppearance.BorderSize = 0;
+            btnSalir2.FlatAppearance.MouseDownBackColor = Color.FromArgb(194, 125, 0);
+            btnSalir2.FlatStyle = FlatStyle.Flat;
+            btnSalir2.Location = new Point(0, 553);
+            btnSalir2.Name = "btnSalir2";
+            btnSalir2.Padding = new Padding(10, 0, 0, 0);
+            btnSalir2.Size = new Size(250, 29);
+            btnSalir2.TabIndex = 11;
+            btnSalir2.Text = "Salir";
+            btnSalir2.TextAlign = ContentAlignment.MiddleLeft;
+            btnSalir2.UseVisualStyleBackColor = true;
+            btnSalir2.Click += btnSalir2_Click;
+            // 
+            // panelConfiguraciones
+            // 
+            panelConfiguraciones.BackColor = Color.FromArgb(21, 19, 21);
+            panelConfiguraciones.Controls.Add(btnCambiarContra);
+            panelConfiguraciones.Controls.Add(btnImpresora);
+            panelConfiguraciones.Dock = DockStyle.Top;
+            panelConfiguraciones.Location = new Point(0, 486);
+            panelConfiguraciones.Name = "panelConfiguraciones";
+            panelConfiguraciones.Size = new Size(250, 67);
+            panelConfiguraciones.TabIndex = 10;
+            // 
+            // btnCambiarContra
+            // 
+            btnCambiarContra.Dock = DockStyle.Top;
+            btnCambiarContra.FlatAppearance.BorderSize = 0;
+            btnCambiarContra.FlatStyle = FlatStyle.Flat;
+            btnCambiarContra.ForeColor = Color.FromArgb(238, 238, 238);
+            btnCambiarContra.Location = new Point(0, 30);
+            btnCambiarContra.Name = "btnCambiarContra";
+            btnCambiarContra.Padding = new Padding(35, 0, 0, 0);
+            btnCambiarContra.Size = new Size(250, 30);
+            btnCambiarContra.TabIndex = 1;
+            btnCambiarContra.Text = "Cambiar contraseña";
+            btnCambiarContra.TextAlign = ContentAlignment.MiddleLeft;
+            btnCambiarContra.UseVisualStyleBackColor = true;
+            // 
+            // btnImpresora
+            // 
+            btnImpresora.Dock = DockStyle.Top;
+            btnImpresora.FlatAppearance.BorderSize = 0;
+            btnImpresora.FlatStyle = FlatStyle.Flat;
+            btnImpresora.ForeColor = Color.FromArgb(238, 238, 238);
+            btnImpresora.Location = new Point(0, 0);
+            btnImpresora.Name = "btnImpresora";
+            btnImpresora.Padding = new Padding(35, 0, 0, 1);
+            btnImpresora.Size = new Size(250, 30);
+            btnImpresora.TabIndex = 0;
+            btnImpresora.Text = "Impresora";
+            btnImpresora.TextAlign = ContentAlignment.MiddleLeft;
+            btnImpresora.UseVisualStyleBackColor = true;
+            // 
+            // btnConfiguraciones
+            // 
+            btnConfiguraciones.Dock = DockStyle.Top;
+            btnConfiguraciones.FlatAppearance.BorderColor = Color.FromArgb(238, 238, 238);
+            btnConfiguraciones.FlatAppearance.BorderSize = 0;
+            btnConfiguraciones.FlatAppearance.MouseDownBackColor = Color.FromArgb(194, 125, 0);
+            btnConfiguraciones.FlatStyle = FlatStyle.Flat;
+            btnConfiguraciones.Location = new Point(0, 457);
+            btnConfiguraciones.Name = "btnConfiguraciones";
+            btnConfiguraciones.Padding = new Padding(10, 0, 0, 0);
+            btnConfiguraciones.Size = new Size(250, 29);
+            btnConfiguraciones.TabIndex = 9;
+            btnConfiguraciones.Text = "Configuraciones";
+            btnConfiguraciones.TextAlign = ContentAlignment.MiddleLeft;
+            btnConfiguraciones.UseVisualStyleBackColor = true;
+            // 
+            // panelReportes
+            // 
+            panelReportes.BackColor = Color.FromArgb(21, 19, 21);
+            panelReportes.Controls.Add(btnVentas);
+            panelReportes.Dock = DockStyle.Top;
+            panelReportes.Location = new Point(0, 420);
+            panelReportes.Name = "panelReportes";
+            panelReportes.Size = new Size(250, 37);
+            panelReportes.TabIndex = 8;
+            // 
+            // btnVentas
+            // 
+            btnVentas.Dock = DockStyle.Top;
+            btnVentas.FlatAppearance.BorderSize = 0;
+            btnVentas.FlatStyle = FlatStyle.Flat;
+            btnVentas.ForeColor = Color.FromArgb(238, 238, 238);
+            btnVentas.Location = new Point(0, 0);
+            btnVentas.Name = "btnVentas";
+            btnVentas.Padding = new Padding(35, 0, 0, 1);
+            btnVentas.Size = new Size(250, 30);
+            btnVentas.TabIndex = 0;
+            btnVentas.Text = "Ventas";
+            btnVentas.TextAlign = ContentAlignment.MiddleLeft;
+            btnVentas.UseVisualStyleBackColor = true;
+            // 
+            // btnReportes
+            // 
+            btnReportes.Dock = DockStyle.Top;
+            btnReportes.FlatAppearance.BorderColor = Color.FromArgb(238, 238, 238);
+            btnReportes.FlatAppearance.BorderSize = 0;
+            btnReportes.FlatAppearance.MouseDownBackColor = Color.FromArgb(194, 125, 0);
+            btnReportes.FlatStyle = FlatStyle.Flat;
+            btnReportes.Location = new Point(0, 391);
+            btnReportes.Name = "btnReportes";
+            btnReportes.Padding = new Padding(10, 0, 0, 0);
+            btnReportes.Size = new Size(250, 29);
+            btnReportes.TabIndex = 7;
+            btnReportes.Text = "Reportes";
+            btnReportes.TextAlign = ContentAlignment.MiddleLeft;
+            btnReportes.UseVisualStyleBackColor = true;
+            // 
+            // panelOperaciones
+            // 
+            panelOperaciones.BackColor = Color.FromArgb(21, 19, 21);
+            panelOperaciones.Controls.Add(btnInventario);
+            panelOperaciones.Controls.Add(btnCompras);
+            panelOperaciones.Controls.Add(button2);
+            panelOperaciones.Dock = DockStyle.Top;
+            panelOperaciones.Location = new Point(0, 291);
+            panelOperaciones.Name = "panelOperaciones";
+            panelOperaciones.Size = new Size(250, 100);
+            panelOperaciones.TabIndex = 6;
+            // 
+            // btnInventario
+            // 
+            btnInventario.Dock = DockStyle.Top;
+            btnInventario.FlatAppearance.BorderSize = 0;
+            btnInventario.FlatStyle = FlatStyle.Flat;
+            btnInventario.ForeColor = Color.FromArgb(238, 238, 238);
+            btnInventario.Location = new Point(0, 60);
+            btnInventario.Name = "btnInventario";
+            btnInventario.Padding = new Padding(35, 0, 0, 0);
+            btnInventario.Size = new Size(250, 30);
+            btnInventario.TabIndex = 2;
+            btnInventario.Text = "Inventario";
+            btnInventario.TextAlign = ContentAlignment.MiddleLeft;
+            btnInventario.UseVisualStyleBackColor = true;
+            // 
+            // btnCompras
+            // 
+            btnCompras.Dock = DockStyle.Top;
+            btnCompras.FlatAppearance.BorderSize = 0;
+            btnCompras.FlatStyle = FlatStyle.Flat;
+            btnCompras.ForeColor = Color.FromArgb(238, 238, 238);
+            btnCompras.Location = new Point(0, 30);
+            btnCompras.Name = "btnCompras";
+            btnCompras.Padding = new Padding(35, 0, 0, 0);
+            btnCompras.Size = new Size(250, 30);
+            btnCompras.TabIndex = 1;
+            btnCompras.Text = "Compras";
+            btnCompras.TextAlign = ContentAlignment.MiddleLeft;
+            btnCompras.UseVisualStyleBackColor = true;
+            btnCompras.Click += btnCompras_Click;
+            // 
+            // button2
+            // 
+            button2.Dock = DockStyle.Top;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.ForeColor = Color.FromArgb(238, 238, 238);
+            button2.Location = new Point(0, 0);
+            button2.Name = "button2";
+            button2.Padding = new Padding(35, 0, 0, 1);
+            button2.Size = new Size(250, 30);
+            button2.TabIndex = 0;
+            button2.Text = "Ventas";
+            button2.TextAlign = ContentAlignment.MiddleLeft;
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // btnOperaciones
+            // 
+            btnOperaciones.Dock = DockStyle.Top;
+            btnOperaciones.FlatAppearance.BorderColor = Color.FromArgb(238, 238, 238);
+            btnOperaciones.FlatAppearance.BorderSize = 0;
+            btnOperaciones.FlatAppearance.MouseDownBackColor = Color.FromArgb(194, 125, 0);
+            btnOperaciones.FlatStyle = FlatStyle.Flat;
+            btnOperaciones.Location = new Point(0, 262);
+            btnOperaciones.Name = "btnOperaciones";
+            btnOperaciones.Padding = new Padding(10, 0, 0, 0);
+            btnOperaciones.Size = new Size(250, 29);
+            btnOperaciones.TabIndex = 5;
+            btnOperaciones.Text = "Operaciones";
+            btnOperaciones.TextAlign = ContentAlignment.MiddleLeft;
+            btnOperaciones.UseVisualStyleBackColor = true;
+            // 
+            // panelCatalogo
+            // 
+            panelCatalogo.BackColor = Color.FromArgb(21, 19, 21);
+            panelCatalogo.Controls.Add(btnUsuarios);
+            panelCatalogo.Dock = DockStyle.Top;
+            panelCatalogo.Location = new Point(0, 225);
+            panelCatalogo.Name = "panelCatalogo";
+            panelCatalogo.Size = new Size(250, 37);
+            panelCatalogo.TabIndex = 4;
+            // 
+            // btnUsuarios
+            // 
+            btnUsuarios.Dock = DockStyle.Top;
+            btnUsuarios.FlatAppearance.BorderSize = 0;
+            btnUsuarios.FlatStyle = FlatStyle.Flat;
+            btnUsuarios.ForeColor = Color.FromArgb(238, 238, 238);
+            btnUsuarios.Location = new Point(0, 0);
+            btnUsuarios.Name = "btnUsuarios";
+            btnUsuarios.Padding = new Padding(35, 0, 0, 1);
+            btnUsuarios.Size = new Size(250, 30);
+            btnUsuarios.TabIndex = 0;
+            btnUsuarios.Text = "Usuarios";
+            btnUsuarios.TextAlign = ContentAlignment.MiddleLeft;
+            btnUsuarios.UseVisualStyleBackColor = true;
+            btnUsuarios.Click += btnUsuarios_Click;
+            // 
+            // btnCatalogo
+            // 
+            btnCatalogo.Dock = DockStyle.Top;
+            btnCatalogo.FlatAppearance.BorderColor = Color.FromArgb(238, 238, 238);
+            btnCatalogo.FlatAppearance.BorderSize = 0;
+            btnCatalogo.FlatAppearance.MouseDownBackColor = Color.FromArgb(194, 125, 0);
+            btnCatalogo.FlatStyle = FlatStyle.Flat;
+            btnCatalogo.Location = new Point(0, 196);
+            btnCatalogo.Name = "btnCatalogo";
+            btnCatalogo.Padding = new Padding(10, 0, 0, 0);
+            btnCatalogo.Size = new Size(250, 29);
+            btnCatalogo.TabIndex = 3;
+            btnCatalogo.Text = "Catalogo";
+            btnCatalogo.TextAlign = ContentAlignment.MiddleLeft;
+            btnCatalogo.UseVisualStyleBackColor = true;
+            // 
+            // panelSubmenuArchivo
+            // 
+            panelSubmenuArchivo.BackColor = Color.FromArgb(21, 19, 21);
+            panelSubmenuArchivo.Controls.Add(btnSalir);
+            panelSubmenuArchivo.Controls.Add(btnCorreo);
+            panelSubmenuArchivo.Dock = DockStyle.Top;
+            panelSubmenuArchivo.Location = new Point(0, 129);
+            panelSubmenuArchivo.Name = "panelSubmenuArchivo";
+            panelSubmenuArchivo.Size = new Size(250, 67);
+            panelSubmenuArchivo.TabIndex = 2;
+            // 
+            // btnSalir
+            // 
+            btnSalir.Dock = DockStyle.Top;
+            btnSalir.FlatAppearance.BorderSize = 0;
+            btnSalir.FlatStyle = FlatStyle.Flat;
+            btnSalir.ForeColor = Color.FromArgb(238, 238, 238);
+            btnSalir.Location = new Point(0, 30);
+            btnSalir.Name = "btnSalir";
+            btnSalir.Padding = new Padding(35, 0, 0, 0);
+            btnSalir.Size = new Size(250, 30);
+            btnSalir.TabIndex = 1;
+            btnSalir.Text = "Salir";
+            btnSalir.TextAlign = ContentAlignment.MiddleLeft;
+            btnSalir.UseVisualStyleBackColor = true;
+            btnSalir.Click += btnSalir_Click;
+            // 
+            // btnCorreo
+            // 
+            btnCorreo.Dock = DockStyle.Top;
+            btnCorreo.FlatAppearance.BorderSize = 0;
+            btnCorreo.FlatStyle = FlatStyle.Flat;
+            btnCorreo.ForeColor = Color.FromArgb(238, 238, 238);
+            btnCorreo.Location = new Point(0, 0);
+            btnCorreo.Name = "btnCorreo";
+            btnCorreo.Padding = new Padding(35, 0, 0, 1);
+            btnCorreo.Size = new Size(250, 30);
+            btnCorreo.TabIndex = 0;
+            btnCorreo.Text = "Correo";
+            btnCorreo.TextAlign = ContentAlignment.MiddleLeft;
+            btnCorreo.UseVisualStyleBackColor = true;
+            // 
+            // btnArchivo
+            // 
+            btnArchivo.Dock = DockStyle.Top;
+            btnArchivo.FlatAppearance.BorderColor = Color.FromArgb(238, 238, 238);
+            btnArchivo.FlatAppearance.BorderSize = 0;
+            btnArchivo.FlatAppearance.MouseDownBackColor = Color.FromArgb(194, 125, 0);
+            btnArchivo.FlatStyle = FlatStyle.Flat;
+            btnArchivo.Location = new Point(0, 100);
+            btnArchivo.Name = "btnArchivo";
+            btnArchivo.Padding = new Padding(10, 0, 0, 0);
+            btnArchivo.Size = new Size(250, 29);
+            btnArchivo.TabIndex = 1;
+            btnArchivo.Text = "Archivo";
+            btnArchivo.TextAlign = ContentAlignment.MiddleLeft;
+            btnArchivo.UseVisualStyleBackColor = true;
+            // 
+            // panelLogo
+            // 
+            panelLogo.Dock = DockStyle.Top;
+            panelLogo.Location = new Point(0, 0);
+            panelLogo.Name = "panelLogo";
+            panelLogo.Size = new Size(250, 100);
+            panelLogo.TabIndex = 0;
+            // 
             // frm_menu_pincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(238, 232, 231);
-            ClientSize = new Size(914, 600);
+            ClientSize = new Size(914, 656);
+            Controls.Add(panelMenu);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Margin = new Padding(3, 4, 3, 4);
@@ -187,6 +537,12 @@
             Load += frm_menu_pincipal_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
+            panelMenu.ResumeLayout(false);
+            panelConfiguraciones.ResumeLayout(false);
+            panelReportes.ResumeLayout(false);
+            panelOperaciones.ResumeLayout(false);
+            panelCatalogo.ResumeLayout(false);
+            panelSubmenuArchivo.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -216,5 +572,27 @@
         private ToolStripMenuItem ventasToolStripMenuItem1;
         private ToolStripMenuItem impresoraToolStripMenuItem;
         private ToolStripMenuItem cambiarContraseñaToolStripMenuItem;
+        private Panel panelMenu;
+        private Panel panelLogo;
+        private Panel panelSubmenuArchivo;
+        private Button btnArchivo;
+        private Button btnSalir;
+        private Button btnCorreo;
+        private Panel panelOperaciones;
+        private Button btnCompras;
+        private Button button2;
+        private Button btnOperaciones;
+        private Panel panelCatalogo;
+        private Button btnUsuarios;
+        private Button btnCatalogo;
+        private Button btnInventario;
+        private Panel panelConfiguraciones;
+        private Button btnCambiarContra;
+        private Button btnImpresora;
+        private Button btnConfiguraciones;
+        private Panel panelReportes;
+        private Button btnVentas;
+        private Button btnReportes;
+        private Button btnSalir2;
     }
 }

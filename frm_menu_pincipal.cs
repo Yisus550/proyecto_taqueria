@@ -38,4 +38,35 @@ namespace proyecto_pos
             new frm_compras().ShowDialog();
 
         }
-    } }
+
+        private void salirMenuItem2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnSalir2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnUsuarios_Click(object sender, EventArgs e)
+        {
+            new frm_usuarios().ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new frm_ventas().ShowDialog();
+        }
+
+        private void btnCompras_Click(object sender, EventArgs e)
+        {
+            new frm_compras().ShowDialog();
+        }
+    }
+}
