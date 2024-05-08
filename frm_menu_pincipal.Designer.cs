@@ -63,7 +63,7 @@
             panelCatalogo = new Panel();
             btnUsuarios = new Button();
             btnCatalogo = new Button();
-            panelSubmenuArchivo = new Panel();
+            panelArchivo = new Panel();
             btnSalir = new Button();
             btnCorreo = new Button();
             btnArchivo = new Button();
@@ -74,7 +74,7 @@
             panelReportes.SuspendLayout();
             panelOperaciones.SuspendLayout();
             panelCatalogo.SuspendLayout();
-            panelSubmenuArchivo.SuspendLayout();
+            panelArchivo.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
@@ -213,7 +213,7 @@
             panelMenu.Controls.Add(btnOperaciones);
             panelMenu.Controls.Add(panelCatalogo);
             panelMenu.Controls.Add(btnCatalogo);
-            panelMenu.Controls.Add(panelSubmenuArchivo);
+            panelMenu.Controls.Add(panelArchivo);
             panelMenu.Controls.Add(btnArchivo);
             panelMenu.Controls.Add(panelLogo);
             panelMenu.Dock = DockStyle.Left;
@@ -249,6 +249,7 @@
             panelConfiguraciones.Name = "panelConfiguraciones";
             panelConfiguraciones.Size = new Size(250, 67);
             panelConfiguraciones.TabIndex = 10;
+            panelConfiguraciones.Visible = false;
             // 
             // btnCambiarContra
             // 
@@ -264,6 +265,7 @@
             btnCambiarContra.Text = "Cambiar contraseña";
             btnCambiarContra.TextAlign = ContentAlignment.MiddleLeft;
             btnCambiarContra.UseVisualStyleBackColor = true;
+            btnCambiarContra.Click += btnCambiarContra_Click;
             // 
             // btnImpresora
             // 
@@ -279,6 +281,7 @@
             btnImpresora.Text = "Impresora";
             btnImpresora.TextAlign = ContentAlignment.MiddleLeft;
             btnImpresora.UseVisualStyleBackColor = true;
+            btnImpresora.Click += btnImpresora_Click;
             // 
             // btnConfiguraciones
             // 
@@ -295,6 +298,7 @@
             btnConfiguraciones.Text = "Configuraciones";
             btnConfiguraciones.TextAlign = ContentAlignment.MiddleLeft;
             btnConfiguraciones.UseVisualStyleBackColor = true;
+            btnConfiguraciones.Click += btnConfiguraciones_Click;
             // 
             // panelReportes
             // 
@@ -305,6 +309,7 @@
             panelReportes.Name = "panelReportes";
             panelReportes.Size = new Size(250, 37);
             panelReportes.TabIndex = 8;
+            panelReportes.Visible = false;
             // 
             // btnVentas
             // 
@@ -320,6 +325,7 @@
             btnVentas.Text = "Ventas";
             btnVentas.TextAlign = ContentAlignment.MiddleLeft;
             btnVentas.UseVisualStyleBackColor = true;
+            btnVentas.Click += btnVentas_Click;
             // 
             // btnReportes
             // 
@@ -336,6 +342,7 @@
             btnReportes.Text = "Reportes";
             btnReportes.TextAlign = ContentAlignment.MiddleLeft;
             btnReportes.UseVisualStyleBackColor = true;
+            btnReportes.Click += btnReportes_Click;
             // 
             // panelOperaciones
             // 
@@ -348,6 +355,7 @@
             panelOperaciones.Name = "panelOperaciones";
             panelOperaciones.Size = new Size(250, 100);
             panelOperaciones.TabIndex = 6;
+            panelOperaciones.Visible = false;
             // 
             // btnInventario
             // 
@@ -363,6 +371,7 @@
             btnInventario.Text = "Inventario";
             btnInventario.TextAlign = ContentAlignment.MiddleLeft;
             btnInventario.UseVisualStyleBackColor = true;
+            btnInventario.Click += btnInventario_Click;
             // 
             // btnCompras
             // 
@@ -411,6 +420,7 @@
             btnOperaciones.Text = "Operaciones";
             btnOperaciones.TextAlign = ContentAlignment.MiddleLeft;
             btnOperaciones.UseVisualStyleBackColor = true;
+            btnOperaciones.Click += btnOperaciones_Click;
             // 
             // panelCatalogo
             // 
@@ -421,6 +431,7 @@
             panelCatalogo.Name = "panelCatalogo";
             panelCatalogo.Size = new Size(250, 37);
             panelCatalogo.TabIndex = 4;
+            panelCatalogo.Visible = false;
             // 
             // btnUsuarios
             // 
@@ -453,17 +464,19 @@
             btnCatalogo.Text = "Catalogo";
             btnCatalogo.TextAlign = ContentAlignment.MiddleLeft;
             btnCatalogo.UseVisualStyleBackColor = true;
+            btnCatalogo.Click += btnCatalogo_Click;
             // 
-            // panelSubmenuArchivo
+            // panelArchivo
             // 
-            panelSubmenuArchivo.BackColor = Color.FromArgb(21, 19, 21);
-            panelSubmenuArchivo.Controls.Add(btnSalir);
-            panelSubmenuArchivo.Controls.Add(btnCorreo);
-            panelSubmenuArchivo.Dock = DockStyle.Top;
-            panelSubmenuArchivo.Location = new Point(0, 129);
-            panelSubmenuArchivo.Name = "panelSubmenuArchivo";
-            panelSubmenuArchivo.Size = new Size(250, 67);
-            panelSubmenuArchivo.TabIndex = 2;
+            panelArchivo.BackColor = Color.FromArgb(21, 19, 21);
+            panelArchivo.Controls.Add(btnSalir);
+            panelArchivo.Controls.Add(btnCorreo);
+            panelArchivo.Dock = DockStyle.Top;
+            panelArchivo.Location = new Point(0, 129);
+            panelArchivo.Name = "panelArchivo";
+            panelArchivo.Size = new Size(250, 67);
+            panelArchivo.TabIndex = 2;
+            panelArchivo.Visible = false;
             // 
             // btnSalir
             // 
@@ -495,6 +508,7 @@
             btnCorreo.Text = "Correo";
             btnCorreo.TextAlign = ContentAlignment.MiddleLeft;
             btnCorreo.UseVisualStyleBackColor = true;
+            btnCorreo.Click += btnCorreo_Click;
             // 
             // btnArchivo
             // 
@@ -511,6 +525,7 @@
             btnArchivo.Text = "Archivo";
             btnArchivo.TextAlign = ContentAlignment.MiddleLeft;
             btnArchivo.UseVisualStyleBackColor = true;
+            btnArchivo.Click += btnArchivo_Click;
             // 
             // panelLogo
             // 
@@ -542,7 +557,7 @@
             panelReportes.ResumeLayout(false);
             panelOperaciones.ResumeLayout(false);
             panelCatalogo.ResumeLayout(false);
-            panelSubmenuArchivo.ResumeLayout(false);
+            panelArchivo.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -574,7 +589,7 @@
         private ToolStripMenuItem cambiarContraseñaToolStripMenuItem;
         private Panel panelMenu;
         private Panel panelLogo;
-        private Panel panelSubmenuArchivo;
+        private Panel panelArchivo;
         private Button btnArchivo;
         private Button btnSalir;
         private Button btnCorreo;
