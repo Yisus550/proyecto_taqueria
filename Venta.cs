@@ -86,5 +86,24 @@ namespace proyecto_pos
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //BEBIDAS
+            num_coca.Value = 0;
+            num_fre.Value = 0;
+            num_jam.Value = 0;
+            num_lim.Value = 0;
+            num_horchata.Value = 0;
+            num_man.Value = 0;
+
+            //TACOS
+            num_barbacoa.Value = 0;
+            num_burritos.Value = 0;
+            num_cabeza.Value = 0;
+            num_carnitas.Value = 0;
+            num_dorados.Value = 0;
+            num_pastor.Value = 0;
+        }
     }
 }
