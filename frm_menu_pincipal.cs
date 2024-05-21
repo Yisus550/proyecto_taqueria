@@ -15,6 +15,25 @@ namespace proyecto_pos
         public frm_menu_pincipal()
         {
             InitializeComponent();
+            openChildForm(new frm_login());
+        }
+
+        public static Form MainForm { get; set; }
+
+        private static Form activeForm = null;
+
+        public void openChildForm(Form childForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelChildForm.Controls.Add(childForm);
+            panelChildForm.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
         }
 
         private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -74,16 +93,12 @@ namespace proyecto_pos
 
         private void hideSubmenus()
         {
-            if (panelArchivo.Visible == true)
-                panelArchivo.Visible = false;
             if (panelCatalogo.Visible == true)
                 panelCatalogo.Visible = false;
             if (panelOperaciones.Visible == true)
                 panelOperaciones.Visible = false;
             if (panelReportes.Visible == true)
                 panelReportes.Visible = false;
-            if (panelConfiguraciones.Visible == true)
-                panelConfiguraciones.Visible = false;
         }
 
         private void showSubmenu(Panel submenu)
@@ -97,11 +112,6 @@ namespace proyecto_pos
             {
                 submenu.Visible = false;
             }
-        }
-
-        private void btnArchivo_Click(object sender, EventArgs e)
-        {
-            showSubmenu(panelArchivo);
         }
 
         private void btnCorreo_Click(object sender, EventArgs e)
@@ -143,11 +153,6 @@ namespace proyecto_pos
              */
         }
 
-        private void btnConfiguraciones_Click(object sender, EventArgs e)
-        {
-            showSubmenu(panelConfiguraciones);
-        }
-
         private void btnImpresora_Click(object sender, EventArgs e)
         {
             hideSubmenus();
@@ -162,6 +167,62 @@ namespace proyecto_pos
             /*
              Instructions . . .
              */
+        }
+
+        private void btnUsuarios_Click_1(object sender, EventArgs e)
+        {
+            openChildForm(new frm_usuarios());
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            openChildForm(new frm_ventas());
+        }
+
+        private void btnCompras_Click_1(object sender, EventArgs e)
+        {
+            openChildForm(new frm_compras());
+        }
+
+        private void btnCatalogo_Click_1(object sender, EventArgs e)
+        {
+            if (panelCatalogo.Visible)
+            {
+                panelCatalogo.Visible = false;
+            }
+            else
+            {
+                panelCatalogo.Visible = true;
+            }
+        }
+
+        private void btnOperaciones_Click_1(object sender, EventArgs e)
+        {
+            if (panelOperaciones.Visible)
+            {
+                panelOperaciones.Visible = false;
+            }
+            else
+            {
+                panelOperaciones.Visible = true;
+            }
+        }
+
+        private void btnReportes_Click_1(object sender, EventArgs e)
+        {
+            if (panelReportes.Visible)
+            {
+                panelReportes.Visible = false;
+            }
+            else
+            {
+                panelReportes.Visible = true;
+            }
+        }
+
+        private void btnConfiguraciones_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
