@@ -15,7 +15,9 @@ namespace proyecto_pos
         public frm_ventas()
         {
             InitializeComponent();
-            
+            pnl_bebidas.Visible = false;
+            btn_tacos.Enabled = true;
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -45,34 +47,42 @@ namespace proyecto_pos
 
         private void btn_bebidas_Click(object sender, EventArgs e)
         {
-
+            pnl_tacos.Visible = false;
+            pnl_bebidas.Visible = true;
         }
 
         private void btn_tacos_Click(object sender, EventArgs e)
         {
-            lbl_ttb.Enabled = false;
-            lbl_ttp.Enabled = false;
-            lbl_ttca.Enabled = false;
-            lbl_ttc.Enabled = false;
-            lbl_ttd.Enabled = false;
-            lbl_tbb.Enabled = false;
-            lbl_tb.Enabled = false;
-            lbl_tp.Enabled = false;
-            lbl_tca.Enabled = false;
-            lbl_tc.Enabled = false;
-            lbl_td.Enabled = false;
-            lbl_b.Enabled = false;
-            pbx_1.Enabled = false;
-            pbx_2.Enabled = false;
-            pbx_3.Enabled = false;
-            pbx_4.Enabled = false;
-            pbx_5.Enabled = false;
-            pbx_6.Enabled = false;
-
-
+            pnl_bebidas.Visible = false;
+            pnl_tacos.Visible = true;
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel12_Paint(object sender, PaintEventArgs e)
         {
 
         }
