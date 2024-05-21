@@ -17,7 +17,7 @@ namespace proyecto_pos
             InitializeComponent();
             pnl_bebidas.Visible = false;
             btn_tacos.Enabled = true;
-            
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -59,7 +59,32 @@ namespace proyecto_pos
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel12_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

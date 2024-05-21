@@ -142,6 +142,9 @@
   <data name="PASTOR-modified" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PASTOR-modified.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="DORADOS-modified" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DORADOS-modified.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="desconocido" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\desconocido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -166,7 +169,22 @@
   <data name="actualizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\actualizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DORADOS-modified" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\DORADOS-modified.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mundet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mundet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="limonada" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\limonada.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fresca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fresca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="horchata" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\horchata.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jamaica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jamaica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
