@@ -34,116 +34,116 @@
             btn_pagar = new Button();
             btn_cancelar = new Button();
             panel1 = new Panel();
-            panel2 = new Panel();
-            pbx_4 = new PictureBox();
-            lbl_ttp = new Label();
-            lbl_tp = new Label();
-            num_pastor = new NumericUpDown();
             panel3 = new Panel();
-            pbx_1 = new PictureBox();
-            lbl_ttb = new Label();
-            lbl_tb = new Label();
             num_barbacoa = new NumericUpDown();
+            lbl_tb = new Label();
+            lbl_ttb = new Label();
+            pbx_1 = new PictureBox();
+            panel2 = new Panel();
+            num_pastor = new NumericUpDown();
+            lbl_tp = new Label();
+            lbl_ttp = new Label();
+            pbx_4 = new PictureBox();
             panel4 = new Panel();
-            panel5 = new Panel();
-            pbx_5 = new PictureBox();
-            lbl_ttca = new Label();
-            lbl_tca = new Label();
-            num_carnitas = new NumericUpDown();
             panel6 = new Panel();
-            pbx_2 = new PictureBox();
-            lbl_ttc = new Label();
-            lbl_tc = new Label();
             num_cabeza = new NumericUpDown();
+            lbl_tc = new Label();
+            lbl_ttc = new Label();
+            pbx_2 = new PictureBox();
+            panel5 = new Panel();
+            num_carnitas = new NumericUpDown();
+            lbl_tca = new Label();
+            lbl_ttca = new Label();
+            pbx_5 = new PictureBox();
             panel7 = new Panel();
-            panel8 = new Panel();
-            pbx_6 = new PictureBox();
-            lbl_tbb = new Label();
-            lbl_b = new Label();
-            num_burritos = new NumericUpDown();
             panel9 = new Panel();
-            pbx_3 = new PictureBox();
-            lbl_ttd = new Label();
-            lbl_td = new Label();
             num_dorados = new NumericUpDown();
+            lbl_td = new Label();
+            lbl_ttd = new Label();
+            pbx_3 = new PictureBox();
+            panel8 = new Panel();
+            num_burritos = new NumericUpDown();
+            lbl_b = new Label();
+            lbl_tbb = new Label();
+            pbx_6 = new PictureBox();
             pnl_tacos = new Panel();
             panel10 = new Panel();
-            panel11 = new Panel();
-            pictureBox4 = new PictureBox();
-            label12 = new Label();
-            label7 = new Label();
-            num_horchata = new NumericUpDown();
             panel12 = new Panel();
-            pictureBox6 = new PictureBox();
-            label13 = new Label();
-            label2 = new Label();
             num_coca = new NumericUpDown();
+            label2 = new Label();
+            label13 = new Label();
+            pictureBox6 = new PictureBox();
+            panel11 = new Panel();
+            num_horchata = new NumericUpDown();
+            label7 = new Label();
+            label12 = new Label();
+            pictureBox4 = new PictureBox();
             panel13 = new Panel();
-            panel14 = new Panel();
-            pictureBox5 = new PictureBox();
-            label10 = new Label();
-            num_jam = new NumericUpDown();
-            label5 = new Label();
             panel15 = new Panel();
-            pictureBox3 = new PictureBox();
-            label8 = new Label();
-            num_fre = new NumericUpDown();
             label3 = new Label();
+            num_fre = new NumericUpDown();
+            label8 = new Label();
+            pictureBox3 = new PictureBox();
+            panel14 = new Panel();
+            label5 = new Label();
+            num_jam = new NumericUpDown();
+            label10 = new Label();
+            pictureBox5 = new PictureBox();
             panel16 = new Panel();
-            panel17 = new Panel();
-            pictureBox2 = new PictureBox();
-            label11 = new Label();
-            num_lim = new NumericUpDown();
-            label14 = new Label();
             panel18 = new Panel();
-            pictureBox1 = new PictureBox();
-            label9 = new Label();
-            num_man = new NumericUpDown();
             label6 = new Label();
+            num_man = new NumericUpDown();
+            label9 = new Label();
+            pictureBox1 = new PictureBox();
+            panel17 = new Panel();
+            label14 = new Label();
+            num_lim = new NumericUpDown();
+            label11 = new Label();
+            pictureBox2 = new PictureBox();
             pnl_bebidas = new Panel();
             panel1.SuspendLayout();
-            panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pbx_4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)num_pastor).BeginInit();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pbx_1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)num_barbacoa).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbx_1).BeginInit();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)num_pastor).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbx_4).BeginInit();
             panel4.SuspendLayout();
-            panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pbx_5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)num_carnitas).BeginInit();
             panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pbx_2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)num_cabeza).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbx_2).BeginInit();
+            panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)num_carnitas).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbx_5).BeginInit();
             panel7.SuspendLayout();
-            panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pbx_6).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)num_burritos).BeginInit();
             panel9.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pbx_3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)num_dorados).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbx_3).BeginInit();
+            panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)num_burritos).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pbx_6).BeginInit();
             pnl_tacos.SuspendLayout();
             panel10.SuspendLayout();
-            panel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)num_horchata).BeginInit();
             panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)num_coca).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
+            panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)num_horchata).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             panel13.SuspendLayout();
-            panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)num_jam).BeginInit();
             panel15.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)num_fre).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)num_jam).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             panel16.SuspendLayout();
-            panel17.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)num_lim).BeginInit();
             panel18.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)num_man).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)num_lim).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             pnl_bebidas.SuspendLayout();
             SuspendLayout();
             // 
@@ -187,6 +187,7 @@
             btn_pagar.TabIndex = 33;
             btn_pagar.Text = "PAGAR";
             btn_pagar.UseVisualStyleBackColor = false;
+            btn_pagar.Click += btn_pagar_Click;
             // 
             // btn_cancelar
             // 
@@ -209,6 +210,55 @@
             panel1.Size = new Size(799, 195);
             panel1.TabIndex = 26;
             // 
+            // panel3
+            // 
+            panel3.Controls.Add(num_barbacoa);
+            panel3.Controls.Add(lbl_tb);
+            panel3.Controls.Add(lbl_ttb);
+            panel3.Controls.Add(pbx_1);
+            panel3.Dock = DockStyle.Right;
+            panel3.Location = new Point(0, 0);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(395, 195);
+            panel3.TabIndex = 26;
+            // 
+            // num_barbacoa
+            // 
+            num_barbacoa.Location = new Point(336, 146);
+            num_barbacoa.Name = "num_barbacoa";
+            num_barbacoa.Size = new Size(44, 27);
+            num_barbacoa.TabIndex = 28;
+            // 
+            // lbl_tb
+            // 
+            lbl_tb.AutoSize = true;
+            lbl_tb.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_tb.Location = new Point(156, 53);
+            lbl_tb.Name = "lbl_tb";
+            lbl_tb.Size = new Size(160, 120);
+            lbl_tb.TabIndex = 27;
+            lbl_tb.Text = "TORTILLA DE MAIZ \r\nCON CARNE DE RES, \r\nGUISADA EN SALSA \r\nDE LA CASA. SE \r\nAGREGA CILANTRO\r\nY CEBOLLA.";
+            // 
+            // lbl_ttb
+            // 
+            lbl_ttb.AutoSize = true;
+            lbl_ttb.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbl_ttb.Location = new Point(15, 21);
+            lbl_ttb.Name = "lbl_ttb";
+            lbl_ttb.Size = new Size(173, 19);
+            lbl_ttb.TabIndex = 26;
+            lbl_ttb.Text = "TACOS DE BARBACOA";
+            // 
+            // pbx_1
+            // 
+            pbx_1.Image = Properties.Resources.BARBACOA_modified;
+            pbx_1.Location = new Point(30, 53);
+            pbx_1.Name = "pbx_1";
+            pbx_1.Size = new Size(120, 120);
+            pbx_1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbx_1.TabIndex = 25;
+            pbx_1.TabStop = false;
+            // 
             // panel2
             // 
             panel2.Controls.Add(num_pastor);
@@ -222,26 +272,12 @@
             panel2.TabIndex = 25;
             panel2.Paint += panel2_Paint;
             // 
-            // pbx_4
+            // num_pastor
             // 
-            pbx_4.Image = Properties.Resources.PASTOR_modified;
-            pbx_4.Location = new Point(23, 53);
-            pbx_4.Margin = new Padding(2);
-            pbx_4.Name = "pbx_4";
-            pbx_4.Size = new Size(120, 120);
-            pbx_4.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbx_4.TabIndex = 22;
-            pbx_4.TabStop = false;
-            // 
-            // lbl_ttp
-            // 
-            lbl_ttp.AutoSize = true;
-            lbl_ttp.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
-            lbl_ttp.Location = new Point(11, 21);
-            lbl_ttp.Name = "lbl_ttp";
-            lbl_ttp.Size = new Size(148, 19);
-            lbl_ttp.TabIndex = 23;
-            lbl_ttp.Text = "TACOS DE PASTOR";
+            num_pastor.Location = new Point(350, 137);
+            num_pastor.Name = "num_pastor";
+            num_pastor.Size = new Size(44, 27);
+            num_pastor.TabIndex = 25;
             // 
             // lbl_tp
             // 
@@ -253,61 +289,26 @@
             lbl_tp.TabIndex = 24;
             lbl_tp.Text = "TRONPO HECHO\r\nCON BISTEC DE\r\nPUERCO Y ADOBO. \r\nSE LE AÑADE PIÑA\r\n Y CILANTRO.";
             // 
-            // num_pastor
+            // lbl_ttp
             // 
-            num_pastor.Location = new Point(350, 137);
-            num_pastor.Name = "num_pastor";
-            num_pastor.Size = new Size(44, 27);
-            num_pastor.TabIndex = 25;
+            lbl_ttp.AutoSize = true;
+            lbl_ttp.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
+            lbl_ttp.Location = new Point(11, 21);
+            lbl_ttp.Name = "lbl_ttp";
+            lbl_ttp.Size = new Size(148, 19);
+            lbl_ttp.TabIndex = 23;
+            lbl_ttp.Text = "TACOS DE PASTOR";
             // 
-            // panel3
+            // pbx_4
             // 
-            panel3.Controls.Add(num_barbacoa);
-            panel3.Controls.Add(lbl_tb);
-            panel3.Controls.Add(lbl_ttb);
-            panel3.Controls.Add(pbx_1);
-            panel3.Dock = DockStyle.Right;
-            panel3.Location = new Point(0, 0);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(395, 195);
-            panel3.TabIndex = 26;
-            // 
-            // pbx_1
-            // 
-            pbx_1.Image = Properties.Resources.BARBACOA_modified;
-            pbx_1.Location = new Point(30, 53);
-            pbx_1.Name = "pbx_1";
-            pbx_1.Size = new Size(120, 120);
-            pbx_1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbx_1.TabIndex = 25;
-            pbx_1.TabStop = false;
-            // 
-            // lbl_ttb
-            // 
-            lbl_ttb.AutoSize = true;
-            lbl_ttb.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbl_ttb.Location = new Point(15, 21);
-            lbl_ttb.Name = "lbl_ttb";
-            lbl_ttb.Size = new Size(173, 19);
-            lbl_ttb.TabIndex = 26;
-            lbl_ttb.Text = "TACOS DE BARBACOA";
-            // 
-            // lbl_tb
-            // 
-            lbl_tb.AutoSize = true;
-            lbl_tb.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_tb.Location = new Point(156, 53);
-            lbl_tb.Name = "lbl_tb";
-            lbl_tb.Size = new Size(160, 120);
-            lbl_tb.TabIndex = 27;
-            lbl_tb.Text = "TORTILLA DE MAIZ \r\nCON CARNE DE RES, \r\nGUISADA EN SALSA \r\nDE LA CASA. SE \r\nAGREGA CILANTRO\r\nY CEBOLLA.";
-            // 
-            // num_barbacoa
-            // 
-            num_barbacoa.Location = new Point(336, 146);
-            num_barbacoa.Name = "num_barbacoa";
-            num_barbacoa.Size = new Size(44, 27);
-            num_barbacoa.TabIndex = 28;
+            pbx_4.Image = Properties.Resources.PASTOR_modified;
+            pbx_4.Location = new Point(23, 53);
+            pbx_4.Margin = new Padding(2);
+            pbx_4.Name = "pbx_4";
+            pbx_4.Size = new Size(120, 120);
+            pbx_4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbx_4.TabIndex = 22;
+            pbx_4.TabStop = false;
             // 
             // panel4
             // 
@@ -318,56 +319,6 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(799, 168);
             panel4.TabIndex = 27;
-            // 
-            // panel5
-            // 
-            panel5.Controls.Add(num_carnitas);
-            panel5.Controls.Add(lbl_tca);
-            panel5.Controls.Add(lbl_ttca);
-            panel5.Controls.Add(pbx_5);
-            panel5.Dock = DockStyle.Right;
-            panel5.Location = new Point(395, 0);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(404, 168);
-            panel5.TabIndex = 33;
-            // 
-            // pbx_5
-            // 
-            pbx_5.Image = Properties.Resources.CANASTA_modified;
-            pbx_5.Location = new Point(28, 35);
-            pbx_5.Margin = new Padding(2);
-            pbx_5.Name = "pbx_5";
-            pbx_5.Size = new Size(120, 120);
-            pbx_5.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbx_5.TabIndex = 34;
-            pbx_5.TabStop = false;
-            // 
-            // lbl_ttca
-            // 
-            lbl_ttca.AutoSize = true;
-            lbl_ttca.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
-            lbl_ttca.Location = new Point(6, 13);
-            lbl_ttca.Name = "lbl_ttca";
-            lbl_ttca.Size = new Size(165, 19);
-            lbl_ttca.TabIndex = 35;
-            lbl_ttca.Text = "TACOS DE CARNITAS";
-            // 
-            // lbl_tca
-            // 
-            lbl_tca.AutoSize = true;
-            lbl_tca.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_tca.Location = new Point(153, 44);
-            lbl_tca.Name = "lbl_tca";
-            lbl_tca.Size = new Size(161, 100);
-            lbl_tca.TabIndex = 36;
-            lbl_tca.Text = "PUEDEN SER \r\nDE SUADERO,\r\nCUERITO, TRIPA. \r\nSON LOS MAS\r\nPEDIDOS DEL LOCAL.";
-            // 
-            // num_carnitas
-            // 
-            num_carnitas.Location = new Point(355, 117);
-            num_carnitas.Name = "num_carnitas";
-            num_carnitas.Size = new Size(44, 27);
-            num_carnitas.TabIndex = 37;
             // 
             // panel6
             // 
@@ -381,26 +332,12 @@
             panel6.Size = new Size(395, 168);
             panel6.TabIndex = 34;
             // 
-            // pbx_2
+            // num_cabeza
             // 
-            pbx_2.Image = Properties.Resources.CARNITAS_modified;
-            pbx_2.Location = new Point(28, 35);
-            pbx_2.Margin = new Padding(2);
-            pbx_2.Name = "pbx_2";
-            pbx_2.Size = new Size(120, 120);
-            pbx_2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbx_2.TabIndex = 33;
-            pbx_2.TabStop = false;
-            // 
-            // lbl_ttc
-            // 
-            lbl_ttc.AutoSize = true;
-            lbl_ttc.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
-            lbl_ttc.Location = new Point(16, 13);
-            lbl_ttc.Name = "lbl_ttc";
-            lbl_ttc.Size = new Size(147, 19);
-            lbl_ttc.TabIndex = 34;
-            lbl_ttc.Text = "TACOS DE CABEZA";
+            num_cabeza.Location = new Point(334, 117);
+            num_cabeza.Name = "num_cabeza";
+            num_cabeza.Size = new Size(44, 27);
+            num_cabeza.TabIndex = 36;
             // 
             // lbl_tc
             // 
@@ -412,12 +349,76 @@
             lbl_tc.TabIndex = 35;
             lbl_tc.Text = "TORTILLA DE MAIZ \r\nCON CARNE DE RES, \r\nCOCIDA AL VAPOR,\r\nSE AGREGA CILANTRO\r\nY CEBOLLA.";
             // 
-            // num_cabeza
+            // lbl_ttc
             // 
-            num_cabeza.Location = new Point(334, 117);
-            num_cabeza.Name = "num_cabeza";
-            num_cabeza.Size = new Size(44, 27);
-            num_cabeza.TabIndex = 36;
+            lbl_ttc.AutoSize = true;
+            lbl_ttc.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
+            lbl_ttc.Location = new Point(16, 13);
+            lbl_ttc.Name = "lbl_ttc";
+            lbl_ttc.Size = new Size(147, 19);
+            lbl_ttc.TabIndex = 34;
+            lbl_ttc.Text = "TACOS DE CABEZA";
+            // 
+            // pbx_2
+            // 
+            pbx_2.Image = Properties.Resources.CARNITAS_modified;
+            pbx_2.Location = new Point(28, 35);
+            pbx_2.Margin = new Padding(2);
+            pbx_2.Name = "pbx_2";
+            pbx_2.Size = new Size(120, 120);
+            pbx_2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbx_2.TabIndex = 33;
+            pbx_2.TabStop = false;
+            // 
+            // panel5
+            // 
+            panel5.Controls.Add(num_carnitas);
+            panel5.Controls.Add(lbl_tca);
+            panel5.Controls.Add(lbl_ttca);
+            panel5.Controls.Add(pbx_5);
+            panel5.Dock = DockStyle.Right;
+            panel5.Location = new Point(395, 0);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(404, 168);
+            panel5.TabIndex = 33;
+            // 
+            // num_carnitas
+            // 
+            num_carnitas.Location = new Point(355, 117);
+            num_carnitas.Name = "num_carnitas";
+            num_carnitas.Size = new Size(44, 27);
+            num_carnitas.TabIndex = 37;
+            // 
+            // lbl_tca
+            // 
+            lbl_tca.AutoSize = true;
+            lbl_tca.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_tca.Location = new Point(153, 44);
+            lbl_tca.Name = "lbl_tca";
+            lbl_tca.Size = new Size(161, 100);
+            lbl_tca.TabIndex = 36;
+            lbl_tca.Text = "PUEDEN SER \r\nDE SUADERO,\r\nCUERITO, TRIPA. \r\nSON LOS MAS\r\nPEDIDOS DEL LOCAL.";
+            // 
+            // lbl_ttca
+            // 
+            lbl_ttca.AutoSize = true;
+            lbl_ttca.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
+            lbl_ttca.Location = new Point(6, 13);
+            lbl_ttca.Name = "lbl_ttca";
+            lbl_ttca.Size = new Size(165, 19);
+            lbl_ttca.TabIndex = 35;
+            lbl_ttca.Text = "TACOS DE CARNITAS";
+            // 
+            // pbx_5
+            // 
+            pbx_5.Image = Properties.Resources.CANASTA_modified;
+            pbx_5.Location = new Point(28, 35);
+            pbx_5.Margin = new Padding(2);
+            pbx_5.Name = "pbx_5";
+            pbx_5.Size = new Size(120, 120);
+            pbx_5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbx_5.TabIndex = 34;
+            pbx_5.TabStop = false;
             // 
             // panel7
             // 
@@ -428,55 +429,6 @@
             panel7.Name = "panel7";
             panel7.Size = new Size(799, 182);
             panel7.TabIndex = 28;
-            // 
-            // panel8
-            // 
-            panel8.Controls.Add(num_burritos);
-            panel8.Controls.Add(lbl_b);
-            panel8.Controls.Add(lbl_tbb);
-            panel8.Controls.Add(pbx_6);
-            panel8.Dock = DockStyle.Right;
-            panel8.Location = new Point(395, 0);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(404, 182);
-            panel8.TabIndex = 38;
-            // 
-            // pbx_6
-            // 
-            pbx_6.Image = Properties.Resources.BURRITOS_modified;
-            pbx_6.Location = new Point(17, 47);
-            pbx_6.Name = "pbx_6";
-            pbx_6.Size = new Size(120, 120);
-            pbx_6.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbx_6.TabIndex = 33;
-            pbx_6.TabStop = false;
-            // 
-            // lbl_tbb
-            // 
-            lbl_tbb.AutoSize = true;
-            lbl_tbb.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
-            lbl_tbb.Location = new Point(34, 15);
-            lbl_tbb.Name = "lbl_tbb";
-            lbl_tbb.Size = new Size(85, 19);
-            lbl_tbb.TabIndex = 34;
-            lbl_tbb.Text = "BURRITOS";
-            // 
-            // lbl_b
-            // 
-            lbl_b.AutoSize = true;
-            lbl_b.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_b.Location = new Point(143, 58);
-            lbl_b.Name = "lbl_b";
-            lbl_b.Size = new Size(194, 80);
-            lbl_b.TabIndex = 35;
-            lbl_b.Text = "TRADICIONALMENTE \r\nSON DE CHICHARRON \r\nY FRIOLES. SE PUEDEN\r\nPEDIR CON OTRA CARNE.";
-            // 
-            // num_burritos
-            // 
-            num_burritos.Location = new Point(344, 140);
-            num_burritos.Name = "num_burritos";
-            num_burritos.Size = new Size(44, 27);
-            num_burritos.TabIndex = 36;
             // 
             // panel9
             // 
@@ -490,25 +442,12 @@
             panel9.Size = new Size(395, 182);
             panel9.TabIndex = 39;
             // 
-            // pbx_3
+            // num_dorados
             // 
-            pbx_3.Image = Properties.Resources.DORADOS_modified;
-            pbx_3.Location = new Point(27, 47);
-            pbx_3.Name = "pbx_3";
-            pbx_3.Size = new Size(120, 120);
-            pbx_3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pbx_3.TabIndex = 32;
-            pbx_3.TabStop = false;
-            // 
-            // lbl_ttd
-            // 
-            lbl_ttd.AutoSize = true;
-            lbl_ttd.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
-            lbl_ttd.Location = new Point(17, 15);
-            lbl_ttd.Name = "lbl_ttd";
-            lbl_ttd.Size = new Size(142, 19);
-            lbl_ttd.TabIndex = 33;
-            lbl_ttd.Text = "TACOS DORADOS";
+            num_dorados.Location = new Point(333, 140);
+            num_dorados.Name = "num_dorados";
+            num_dorados.Size = new Size(44, 27);
+            num_dorados.TabIndex = 35;
             // 
             // lbl_td
             // 
@@ -520,12 +459,74 @@
             lbl_td.TabIndex = 34;
             lbl_td.Text = "TORTILLA GRANDE \r\nFRITA, RELLENA DE\r\nRES O POLLO.  SE \r\nACOMPAÑAN CON \r\nLECHUGA, QUESO,\r\nCREMA Y SALSA.";
             // 
-            // num_dorados
+            // lbl_ttd
             // 
-            num_dorados.Location = new Point(333, 140);
-            num_dorados.Name = "num_dorados";
-            num_dorados.Size = new Size(44, 27);
-            num_dorados.TabIndex = 35;
+            lbl_ttd.AutoSize = true;
+            lbl_ttd.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
+            lbl_ttd.Location = new Point(17, 15);
+            lbl_ttd.Name = "lbl_ttd";
+            lbl_ttd.Size = new Size(142, 19);
+            lbl_ttd.TabIndex = 33;
+            lbl_ttd.Text = "TACOS DORADOS";
+            // 
+            // pbx_3
+            // 
+            pbx_3.Image = Properties.Resources.DORADOS_modified;
+            pbx_3.Location = new Point(27, 47);
+            pbx_3.Name = "pbx_3";
+            pbx_3.Size = new Size(120, 120);
+            pbx_3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbx_3.TabIndex = 32;
+            pbx_3.TabStop = false;
+            // 
+            // panel8
+            // 
+            panel8.Controls.Add(num_burritos);
+            panel8.Controls.Add(lbl_b);
+            panel8.Controls.Add(lbl_tbb);
+            panel8.Controls.Add(pbx_6);
+            panel8.Dock = DockStyle.Right;
+            panel8.Location = new Point(395, 0);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(404, 182);
+            panel8.TabIndex = 38;
+            // 
+            // num_burritos
+            // 
+            num_burritos.Location = new Point(344, 140);
+            num_burritos.Name = "num_burritos";
+            num_burritos.Size = new Size(44, 27);
+            num_burritos.TabIndex = 36;
+            // 
+            // lbl_b
+            // 
+            lbl_b.AutoSize = true;
+            lbl_b.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_b.Location = new Point(143, 58);
+            lbl_b.Name = "lbl_b";
+            lbl_b.Size = new Size(194, 80);
+            lbl_b.TabIndex = 35;
+            lbl_b.Text = "TRADICIONALMENTE \r\nSON DE CHICHARRON \r\nY FRIOLES. SE PUEDEN\r\nPEDIR CON OTRA CARNE.";
+            // 
+            // lbl_tbb
+            // 
+            lbl_tbb.AutoSize = true;
+            lbl_tbb.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
+            lbl_tbb.Location = new Point(34, 15);
+            lbl_tbb.Name = "lbl_tbb";
+            lbl_tbb.Size = new Size(85, 19);
+            lbl_tbb.TabIndex = 34;
+            lbl_tbb.Text = "BURRITOS";
+            // 
+            // pbx_6
+            // 
+            pbx_6.Image = Properties.Resources.BURRITOS_modified;
+            pbx_6.Location = new Point(17, 47);
+            pbx_6.Name = "pbx_6";
+            pbx_6.Size = new Size(120, 120);
+            pbx_6.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbx_6.TabIndex = 33;
+            pbx_6.TabStop = false;
             // 
             // pnl_tacos
             // 
@@ -549,56 +550,6 @@
             panel10.TabIndex = 30;
             panel10.Paint += panel10_Paint;
             // 
-            // panel11
-            // 
-            panel11.Controls.Add(num_horchata);
-            panel11.Controls.Add(label7);
-            panel11.Controls.Add(label12);
-            panel11.Controls.Add(pictureBox4);
-            panel11.Dock = DockStyle.Right;
-            panel11.Location = new Point(395, 0);
-            panel11.Name = "panel11";
-            panel11.Size = new Size(404, 198);
-            panel11.TabIndex = 29;
-            // 
-            // pictureBox4
-            // 
-            pictureBox4.Image = Properties.Resources.horchata;
-            pictureBox4.Location = new Point(17, 55);
-            pictureBox4.Margin = new Padding(2);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(120, 120);
-            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox4.TabIndex = 30;
-            pictureBox4.TabStop = false;
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
-            label12.Location = new Point(27, 23);
-            label12.Name = "label12";
-            label12.Size = new Size(96, 19);
-            label12.TabIndex = 31;
-            label12.Text = "HORCHATA";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(154, 141);
-            label7.Name = "label7";
-            label7.Size = new Size(88, 20);
-            label7.TabIndex = 32;
-            label7.Text = "BEBIDA 1 lt";
-            // 
-            // num_horchata
-            // 
-            num_horchata.Location = new Point(344, 139);
-            num_horchata.Name = "num_horchata";
-            num_horchata.Size = new Size(44, 27);
-            num_horchata.TabIndex = 33;
-            // 
             // panel12
             // 
             panel12.Controls.Add(num_coca);
@@ -612,25 +563,12 @@
             panel12.TabIndex = 30;
             panel12.Paint += panel12_Paint;
             // 
-            // pictureBox6
+            // num_coca
             // 
-            pictureBox6.Image = Properties.Resources.coca;
-            pictureBox6.Location = new Point(22, 55);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(120, 120);
-            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox6.TabIndex = 29;
-            pictureBox6.TabStop = false;
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label13.Location = new Point(31, 23);
-            label13.Name = "label13";
-            label13.Size = new Size(100, 19);
-            label13.TabIndex = 30;
-            label13.Text = "COCA-COLA";
+            num_coca.Location = new Point(328, 148);
+            num_coca.Name = "num_coca";
+            num_coca.Size = new Size(44, 27);
+            num_coca.TabIndex = 32;
             // 
             // label2
             // 
@@ -642,12 +580,75 @@
             label2.TabIndex = 31;
             label2.Text = "BEBIDA DE 600 ml";
             // 
-            // num_coca
+            // label13
             // 
-            num_coca.Location = new Point(328, 148);
-            num_coca.Name = "num_coca";
-            num_coca.Size = new Size(44, 27);
-            num_coca.TabIndex = 32;
+            label13.AutoSize = true;
+            label13.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label13.Location = new Point(31, 23);
+            label13.Name = "label13";
+            label13.Size = new Size(100, 19);
+            label13.TabIndex = 30;
+            label13.Text = "COCA-COLA";
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.Image = Properties.Resources.coca;
+            pictureBox6.Location = new Point(22, 55);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(120, 120);
+            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox6.TabIndex = 29;
+            pictureBox6.TabStop = false;
+            // 
+            // panel11
+            // 
+            panel11.Controls.Add(num_horchata);
+            panel11.Controls.Add(label7);
+            panel11.Controls.Add(label12);
+            panel11.Controls.Add(pictureBox4);
+            panel11.Dock = DockStyle.Right;
+            panel11.Location = new Point(395, 0);
+            panel11.Name = "panel11";
+            panel11.Size = new Size(404, 198);
+            panel11.TabIndex = 29;
+            // 
+            // num_horchata
+            // 
+            num_horchata.Location = new Point(344, 139);
+            num_horchata.Name = "num_horchata";
+            num_horchata.Size = new Size(44, 27);
+            num_horchata.TabIndex = 33;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(154, 141);
+            label7.Name = "label7";
+            label7.Size = new Size(110, 20);
+            label7.TabIndex = 32;
+            label7.Text = "BEBIDA 600ml";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
+            label12.Location = new Point(27, 23);
+            label12.Name = "label12";
+            label12.Size = new Size(96, 19);
+            label12.TabIndex = 31;
+            label12.Text = "HORCHATA";
+            // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = Properties.Resources.horchata;
+            pictureBox4.Location = new Point(17, 55);
+            pictureBox4.Margin = new Padding(2);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(120, 120);
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox4.TabIndex = 30;
+            pictureBox4.TabStop = false;
             // 
             // panel13
             // 
@@ -658,56 +659,6 @@
             panel13.Name = "panel13";
             panel13.Size = new Size(799, 165);
             panel13.TabIndex = 31;
-            // 
-            // panel14
-            // 
-            panel14.Controls.Add(label5);
-            panel14.Controls.Add(num_jam);
-            panel14.Controls.Add(label10);
-            panel14.Controls.Add(pictureBox5);
-            panel14.Dock = DockStyle.Right;
-            panel14.Location = new Point(395, 0);
-            panel14.Name = "panel14";
-            panel14.Size = new Size(404, 165);
-            panel14.TabIndex = 36;
-            // 
-            // pictureBox5
-            // 
-            pictureBox5.Image = Properties.Resources.jamaica;
-            pictureBox5.Location = new Point(17, 33);
-            pictureBox5.Margin = new Padding(2);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(120, 120);
-            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox5.TabIndex = 37;
-            pictureBox5.TabStop = false;
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
-            label10.Location = new Point(41, 12);
-            label10.Name = "label10";
-            label10.Size = new Size(78, 19);
-            label10.TabIndex = 38;
-            label10.Text = "JAMAICA";
-            // 
-            // num_jam
-            // 
-            num_jam.Location = new Point(344, 115);
-            num_jam.Name = "num_jam";
-            num_jam.Size = new Size(44, 27);
-            num_jam.TabIndex = 39;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(154, 122);
-            label5.Name = "label5";
-            label5.Size = new Size(88, 20);
-            label5.TabIndex = 40;
-            label5.Text = "BEBIDA 1 lt";
             // 
             // panel15
             // 
@@ -721,16 +672,22 @@
             panel15.Size = new Size(395, 165);
             panel15.TabIndex = 37;
             // 
-            // pictureBox3
+            // label3
             // 
-            pictureBox3.Image = Properties.Resources.fresca;
-            pictureBox3.Location = new Point(22, 33);
-            pictureBox3.Margin = new Padding(2);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(120, 120);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 36;
-            pictureBox3.TabStop = false;
+            label3.AutoSize = true;
+            label3.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(148, 122);
+            label3.Name = "label3";
+            label3.Size = new Size(137, 20);
+            label3.TabIndex = 39;
+            label3.Text = "BEBIDA DE 600 ml";
+            // 
+            // num_fre
+            // 
+            num_fre.Location = new Point(328, 115);
+            num_fre.Name = "num_fre";
+            num_fre.Size = new Size(44, 27);
+            num_fre.TabIndex = 38;
             // 
             // label8
             // 
@@ -742,22 +699,66 @@
             label8.TabIndex = 37;
             label8.Text = "FRESCA";
             // 
-            // num_fre
+            // pictureBox3
             // 
-            num_fre.Location = new Point(328, 115);
-            num_fre.Name = "num_fre";
-            num_fre.Size = new Size(44, 27);
-            num_fre.TabIndex = 38;
+            pictureBox3.Image = Properties.Resources.fresca;
+            pictureBox3.Location = new Point(22, 33);
+            pictureBox3.Margin = new Padding(2);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(120, 120);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 36;
+            pictureBox3.TabStop = false;
             // 
-            // label3
+            // panel14
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(148, 122);
-            label3.Name = "label3";
-            label3.Size = new Size(137, 20);
-            label3.TabIndex = 39;
-            label3.Text = "BEBIDA DE 600 ml";
+            panel14.Controls.Add(label5);
+            panel14.Controls.Add(num_jam);
+            panel14.Controls.Add(label10);
+            panel14.Controls.Add(pictureBox5);
+            panel14.Dock = DockStyle.Right;
+            panel14.Location = new Point(395, 0);
+            panel14.Name = "panel14";
+            panel14.Size = new Size(404, 165);
+            panel14.TabIndex = 36;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.Location = new Point(154, 122);
+            label5.Name = "label5";
+            label5.Size = new Size(110, 20);
+            label5.TabIndex = 40;
+            label5.Text = "BEBIDA 600ml";
+            // 
+            // num_jam
+            // 
+            num_jam.Location = new Point(344, 115);
+            num_jam.Name = "num_jam";
+            num_jam.Size = new Size(44, 27);
+            num_jam.TabIndex = 39;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
+            label10.Location = new Point(41, 12);
+            label10.Name = "label10";
+            label10.Size = new Size(78, 19);
+            label10.TabIndex = 38;
+            label10.Text = "JAMAICA";
+            // 
+            // pictureBox5
+            // 
+            pictureBox5.Image = Properties.Resources.jamaica;
+            pictureBox5.Location = new Point(17, 33);
+            pictureBox5.Margin = new Padding(2);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(120, 120);
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.TabIndex = 37;
+            pictureBox5.TabStop = false;
             // 
             // panel16
             // 
@@ -768,55 +769,6 @@
             panel16.Name = "panel16";
             panel16.Size = new Size(799, 185);
             panel16.TabIndex = 32;
-            // 
-            // panel17
-            // 
-            panel17.Controls.Add(label14);
-            panel17.Controls.Add(num_lim);
-            panel17.Controls.Add(label11);
-            panel17.Controls.Add(pictureBox2);
-            panel17.Dock = DockStyle.Right;
-            panel17.Location = new Point(395, 0);
-            panel17.Name = "panel17";
-            panel17.Size = new Size(404, 185);
-            panel17.TabIndex = 37;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = Properties.Resources.limonada;
-            pictureBox2.Location = new Point(17, 48);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(120, 120);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 38;
-            pictureBox2.TabStop = false;
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
-            label11.Location = new Point(34, 16);
-            label11.Name = "label11";
-            label11.Size = new Size(95, 19);
-            label11.TabIndex = 39;
-            label11.Text = "LIMONADA";
-            // 
-            // num_lim
-            // 
-            num_lim.Location = new Point(344, 141);
-            num_lim.Name = "num_lim";
-            num_lim.Size = new Size(44, 27);
-            num_lim.TabIndex = 40;
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label14.Location = new Point(154, 143);
-            label14.Name = "label14";
-            label14.Size = new Size(88, 20);
-            label14.TabIndex = 41;
-            label14.Text = "BEBIDA 1 lt";
             // 
             // panel18
             // 
@@ -830,15 +782,22 @@
             panel18.Size = new Size(395, 185);
             panel18.TabIndex = 38;
             // 
-            // pictureBox1
+            // label6
             // 
-            pictureBox1.Image = Properties.Resources.mundet;
-            pictureBox1.Location = new Point(22, 48);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(120, 120);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 37;
-            pictureBox1.TabStop = false;
+            label6.AutoSize = true;
+            label6.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(148, 143);
+            label6.Name = "label6";
+            label6.Size = new Size(137, 20);
+            label6.TabIndex = 40;
+            label6.Text = "BEBIDA DE 600 ml";
+            // 
+            // num_man
+            // 
+            num_man.Location = new Point(328, 141);
+            num_man.Name = "num_man";
+            num_man.Size = new Size(44, 27);
+            num_man.TabIndex = 39;
             // 
             // label9
             // 
@@ -850,22 +809,64 @@
             label9.TabIndex = 38;
             label9.Text = "MUNDET";
             // 
-            // num_man
+            // pictureBox1
             // 
-            num_man.Location = new Point(328, 141);
-            num_man.Name = "num_man";
-            num_man.Size = new Size(44, 27);
-            num_man.TabIndex = 39;
+            pictureBox1.Image = Properties.Resources.mundet;
+            pictureBox1.Location = new Point(22, 48);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(120, 120);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 37;
+            pictureBox1.TabStop = false;
             // 
-            // label6
+            // panel17
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(148, 143);
-            label6.Name = "label6";
-            label6.Size = new Size(137, 20);
-            label6.TabIndex = 40;
-            label6.Text = "BEBIDA DE 600 ml";
+            panel17.Controls.Add(label14);
+            panel17.Controls.Add(num_lim);
+            panel17.Controls.Add(label11);
+            panel17.Controls.Add(pictureBox2);
+            panel17.Dock = DockStyle.Right;
+            panel17.Location = new Point(395, 0);
+            panel17.Name = "panel17";
+            panel17.Size = new Size(404, 185);
+            panel17.TabIndex = 37;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label14.Location = new Point(154, 143);
+            label14.Name = "label14";
+            label14.Size = new Size(110, 20);
+            label14.TabIndex = 41;
+            label14.Text = "BEBIDA 600ml";
+            // 
+            // num_lim
+            // 
+            num_lim.Location = new Point(344, 141);
+            num_lim.Name = "num_lim";
+            num_lim.Size = new Size(44, 27);
+            num_lim.TabIndex = 40;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Microsoft JhengHei UI", 9F, FontStyle.Bold);
+            label11.Location = new Point(34, 16);
+            label11.Name = "label11";
+            label11.Size = new Size(95, 19);
+            label11.TabIndex = 39;
+            label11.Text = "LIMONADA";
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.limonada;
+            pictureBox2.Location = new Point(17, 48);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(120, 120);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 38;
+            pictureBox2.TabStop = false;
             // 
             // pnl_bebidas
             // 
@@ -897,60 +898,60 @@
             Text = "VENTA";
             Load += Form1_Load;
             panel1.ResumeLayout(false);
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pbx_4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)num_pastor).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pbx_1).EndInit();
             ((System.ComponentModel.ISupportInitialize)num_barbacoa).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbx_1).EndInit();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)num_pastor).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbx_4).EndInit();
             panel4.ResumeLayout(false);
-            panel5.ResumeLayout(false);
-            panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pbx_5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)num_carnitas).EndInit();
             panel6.ResumeLayout(false);
             panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pbx_2).EndInit();
             ((System.ComponentModel.ISupportInitialize)num_cabeza).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbx_2).EndInit();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)num_carnitas).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbx_5).EndInit();
             panel7.ResumeLayout(false);
-            panel8.ResumeLayout(false);
-            panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pbx_6).EndInit();
-            ((System.ComponentModel.ISupportInitialize)num_burritos).EndInit();
             panel9.ResumeLayout(false);
             panel9.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pbx_3).EndInit();
             ((System.ComponentModel.ISupportInitialize)num_dorados).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbx_3).EndInit();
+            panel8.ResumeLayout(false);
+            panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)num_burritos).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pbx_6).EndInit();
             pnl_tacos.ResumeLayout(false);
             panel10.ResumeLayout(false);
-            panel11.ResumeLayout(false);
-            panel11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)num_horchata).EndInit();
             panel12.ResumeLayout(false);
             panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)num_coca).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
+            panel11.ResumeLayout(false);
+            panel11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)num_horchata).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             panel13.ResumeLayout(false);
-            panel14.ResumeLayout(false);
-            panel14.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)num_jam).EndInit();
             panel15.ResumeLayout(false);
             panel15.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)num_fre).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            panel14.ResumeLayout(false);
+            panel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)num_jam).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             panel16.ResumeLayout(false);
-            panel17.ResumeLayout(false);
-            panel17.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)num_lim).EndInit();
             panel18.ResumeLayout(false);
             panel18.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)num_man).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel17.ResumeLayout(false);
+            panel17.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)num_lim).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             pnl_bebidas.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
