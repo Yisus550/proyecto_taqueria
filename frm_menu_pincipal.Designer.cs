@@ -28,142 +28,60 @@
         /// </summary>
         private void InitializeComponent()
         {
+            panelChildForm = new Panel();
             panelMenu = new Panel();
-            btnSalir2 = new Button();
-            panelConfiguraciones = new Panel();
-            btnCambiarContra = new Button();
-            btnImpresora = new Button();
-            btnConfiguraciones = new Button();
             panelReportes = new Panel();
             btnVentas = new Button();
             btnReportes = new Button();
             panelOperaciones = new Panel();
-            btnInventario = new Button();
             btnCompras = new Button();
             button2 = new Button();
             btnOperaciones = new Button();
             panelCatalogo = new Panel();
             btnUsuarios = new Button();
             btnCatalogo = new Button();
-            panelArchivo = new Panel();
-            btnSalir = new Button();
-            btnCorreo = new Button();
-            btnArchivo = new Button();
             panelLogo = new Panel();
+            btnSalir2 = new Button();
+            panelChildForm.SuspendLayout();
             panelMenu.SuspendLayout();
-            panelConfiguraciones.SuspendLayout();
             panelReportes.SuspendLayout();
             panelOperaciones.SuspendLayout();
             panelCatalogo.SuspendLayout();
-            panelArchivo.SuspendLayout();
             SuspendLayout();
+            // 
+            // panelChildForm
+            // 
+            panelChildForm.Controls.Add(panelMenu);
+            panelChildForm.Dock = DockStyle.Fill;
+            panelChildForm.Location = new Point(0, 0);
+            panelChildForm.Name = "panelChildForm";
+            panelChildForm.Size = new Size(914, 656);
+            panelChildForm.TabIndex = 2;
             // 
             // panelMenu
             // 
             panelMenu.AutoScroll = true;
             panelMenu.BackColor = Color.FromArgb(245, 158, 0);
             panelMenu.Controls.Add(btnSalir2);
-            panelMenu.Controls.Add(panelConfiguraciones);
-            panelMenu.Controls.Add(btnConfiguraciones);
             panelMenu.Controls.Add(panelReportes);
             panelMenu.Controls.Add(btnReportes);
             panelMenu.Controls.Add(panelOperaciones);
             panelMenu.Controls.Add(btnOperaciones);
             panelMenu.Controls.Add(panelCatalogo);
             panelMenu.Controls.Add(btnCatalogo);
-            panelMenu.Controls.Add(panelArchivo);
-            panelMenu.Controls.Add(btnArchivo);
             panelMenu.Controls.Add(panelLogo);
             panelMenu.Dock = DockStyle.Left;
             panelMenu.Location = new Point(0, 0);
             panelMenu.Name = "panelMenu";
             panelMenu.Size = new Size(250, 656);
-            panelMenu.TabIndex = 1;
-            // 
-            // btnSalir2
-            // 
-            btnSalir2.Dock = DockStyle.Top;
-            btnSalir2.FlatAppearance.BorderColor = Color.FromArgb(238, 238, 238);
-            btnSalir2.FlatAppearance.BorderSize = 0;
-            btnSalir2.FlatAppearance.MouseDownBackColor = Color.FromArgb(194, 125, 0);
-            btnSalir2.FlatStyle = FlatStyle.Flat;
-            btnSalir2.Location = new Point(0, 553);
-            btnSalir2.Name = "btnSalir2";
-            btnSalir2.Padding = new Padding(10, 0, 0, 0);
-            btnSalir2.Size = new Size(250, 29);
-            btnSalir2.TabIndex = 11;
-            btnSalir2.Text = "Salir";
-            btnSalir2.TextAlign = ContentAlignment.MiddleLeft;
-            btnSalir2.UseVisualStyleBackColor = true;
-            btnSalir2.Click += btnSalir2_Click;
-            // 
-            // panelConfiguraciones
-            // 
-            panelConfiguraciones.BackColor = Color.FromArgb(21, 19, 21);
-            panelConfiguraciones.Controls.Add(btnCambiarContra);
-            panelConfiguraciones.Controls.Add(btnImpresora);
-            panelConfiguraciones.Dock = DockStyle.Top;
-            panelConfiguraciones.Location = new Point(0, 486);
-            panelConfiguraciones.Name = "panelConfiguraciones";
-            panelConfiguraciones.Size = new Size(250, 67);
-            panelConfiguraciones.TabIndex = 10;
-            panelConfiguraciones.Visible = false;
-            // 
-            // btnCambiarContra
-            // 
-            btnCambiarContra.Dock = DockStyle.Top;
-            btnCambiarContra.FlatAppearance.BorderSize = 0;
-            btnCambiarContra.FlatStyle = FlatStyle.Flat;
-            btnCambiarContra.ForeColor = Color.FromArgb(238, 238, 238);
-            btnCambiarContra.Location = new Point(0, 30);
-            btnCambiarContra.Name = "btnCambiarContra";
-            btnCambiarContra.Padding = new Padding(35, 0, 0, 0);
-            btnCambiarContra.Size = new Size(250, 30);
-            btnCambiarContra.TabIndex = 1;
-            btnCambiarContra.Text = "Cambiar contraseña";
-            btnCambiarContra.TextAlign = ContentAlignment.MiddleLeft;
-            btnCambiarContra.UseVisualStyleBackColor = true;
-            btnCambiarContra.Click += btnCambiarContra_Click;
-            // 
-            // btnImpresora
-            // 
-            btnImpresora.Dock = DockStyle.Top;
-            btnImpresora.FlatAppearance.BorderSize = 0;
-            btnImpresora.FlatStyle = FlatStyle.Flat;
-            btnImpresora.ForeColor = Color.FromArgb(238, 238, 238);
-            btnImpresora.Location = new Point(0, 0);
-            btnImpresora.Name = "btnImpresora";
-            btnImpresora.Padding = new Padding(35, 0, 0, 1);
-            btnImpresora.Size = new Size(250, 30);
-            btnImpresora.TabIndex = 0;
-            btnImpresora.Text = "Impresora";
-            btnImpresora.TextAlign = ContentAlignment.MiddleLeft;
-            btnImpresora.UseVisualStyleBackColor = true;
-            btnImpresora.Click += btnImpresora_Click;
-            // 
-            // btnConfiguraciones
-            // 
-            btnConfiguraciones.Dock = DockStyle.Top;
-            btnConfiguraciones.FlatAppearance.BorderColor = Color.FromArgb(238, 238, 238);
-            btnConfiguraciones.FlatAppearance.BorderSize = 0;
-            btnConfiguraciones.FlatAppearance.MouseDownBackColor = Color.FromArgb(194, 125, 0);
-            btnConfiguraciones.FlatStyle = FlatStyle.Flat;
-            btnConfiguraciones.Location = new Point(0, 457);
-            btnConfiguraciones.Name = "btnConfiguraciones";
-            btnConfiguraciones.Padding = new Padding(10, 0, 0, 0);
-            btnConfiguraciones.Size = new Size(250, 29);
-            btnConfiguraciones.TabIndex = 9;
-            btnConfiguraciones.Text = "Configuraciones";
-            btnConfiguraciones.TextAlign = ContentAlignment.MiddleLeft;
-            btnConfiguraciones.UseVisualStyleBackColor = true;
-            btnConfiguraciones.Click += btnConfiguraciones_Click;
+            panelMenu.TabIndex = 2;
             // 
             // panelReportes
             // 
             panelReportes.BackColor = Color.FromArgb(21, 19, 21);
             panelReportes.Controls.Add(btnVentas);
             panelReportes.Dock = DockStyle.Top;
-            panelReportes.Location = new Point(0, 420);
+            panelReportes.Location = new Point(0, 296);
             panelReportes.Name = "panelReportes";
             panelReportes.Size = new Size(250, 37);
             panelReportes.TabIndex = 8;
@@ -183,7 +101,6 @@
             btnVentas.Text = "Ventas";
             btnVentas.TextAlign = ContentAlignment.MiddleLeft;
             btnVentas.UseVisualStyleBackColor = true;
-            btnVentas.Click += btnVentas_Click;
             // 
             // btnReportes
             // 
@@ -192,7 +109,7 @@
             btnReportes.FlatAppearance.BorderSize = 0;
             btnReportes.FlatAppearance.MouseDownBackColor = Color.FromArgb(194, 125, 0);
             btnReportes.FlatStyle = FlatStyle.Flat;
-            btnReportes.Location = new Point(0, 391);
+            btnReportes.Location = new Point(0, 267);
             btnReportes.Name = "btnReportes";
             btnReportes.Padding = new Padding(10, 0, 0, 0);
             btnReportes.Size = new Size(250, 29);
@@ -200,36 +117,19 @@
             btnReportes.Text = "Reportes";
             btnReportes.TextAlign = ContentAlignment.MiddleLeft;
             btnReportes.UseVisualStyleBackColor = true;
-            btnReportes.Click += btnReportes_Click;
+            btnReportes.Click += btnReportes_Click_1;
             // 
             // panelOperaciones
             // 
             panelOperaciones.BackColor = Color.FromArgb(21, 19, 21);
-            panelOperaciones.Controls.Add(btnInventario);
             panelOperaciones.Controls.Add(btnCompras);
             panelOperaciones.Controls.Add(button2);
             panelOperaciones.Dock = DockStyle.Top;
-            panelOperaciones.Location = new Point(0, 291);
+            panelOperaciones.Location = new Point(0, 195);
             panelOperaciones.Name = "panelOperaciones";
-            panelOperaciones.Size = new Size(250, 100);
+            panelOperaciones.Size = new Size(250, 72);
             panelOperaciones.TabIndex = 6;
             panelOperaciones.Visible = false;
-            // 
-            // btnInventario
-            // 
-            btnInventario.Dock = DockStyle.Top;
-            btnInventario.FlatAppearance.BorderSize = 0;
-            btnInventario.FlatStyle = FlatStyle.Flat;
-            btnInventario.ForeColor = Color.FromArgb(238, 238, 238);
-            btnInventario.Location = new Point(0, 60);
-            btnInventario.Name = "btnInventario";
-            btnInventario.Padding = new Padding(35, 0, 0, 0);
-            btnInventario.Size = new Size(250, 30);
-            btnInventario.TabIndex = 2;
-            btnInventario.Text = "Inventario";
-            btnInventario.TextAlign = ContentAlignment.MiddleLeft;
-            btnInventario.UseVisualStyleBackColor = true;
-            btnInventario.Click += btnInventario_Click;
             // 
             // btnCompras
             // 
@@ -245,7 +145,7 @@
             btnCompras.Text = "Compras";
             btnCompras.TextAlign = ContentAlignment.MiddleLeft;
             btnCompras.UseVisualStyleBackColor = true;
-            btnCompras.Click += btnCompras_Click;
+            btnCompras.Click += btnCompras_Click_1;
             // 
             // button2
             // 
@@ -261,7 +161,7 @@
             button2.Text = "Ventas";
             button2.TextAlign = ContentAlignment.MiddleLeft;
             button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            button2.Click += button2_Click_1;
             // 
             // btnOperaciones
             // 
@@ -270,7 +170,7 @@
             btnOperaciones.FlatAppearance.BorderSize = 0;
             btnOperaciones.FlatAppearance.MouseDownBackColor = Color.FromArgb(194, 125, 0);
             btnOperaciones.FlatStyle = FlatStyle.Flat;
-            btnOperaciones.Location = new Point(0, 262);
+            btnOperaciones.Location = new Point(0, 166);
             btnOperaciones.Name = "btnOperaciones";
             btnOperaciones.Padding = new Padding(10, 0, 0, 0);
             btnOperaciones.Size = new Size(250, 29);
@@ -278,14 +178,14 @@
             btnOperaciones.Text = "Operaciones";
             btnOperaciones.TextAlign = ContentAlignment.MiddleLeft;
             btnOperaciones.UseVisualStyleBackColor = true;
-            btnOperaciones.Click += btnOperaciones_Click;
+            btnOperaciones.Click += btnOperaciones_Click_1;
             // 
             // panelCatalogo
             // 
             panelCatalogo.BackColor = Color.FromArgb(21, 19, 21);
             panelCatalogo.Controls.Add(btnUsuarios);
             panelCatalogo.Dock = DockStyle.Top;
-            panelCatalogo.Location = new Point(0, 225);
+            panelCatalogo.Location = new Point(0, 129);
             panelCatalogo.Name = "panelCatalogo";
             panelCatalogo.Size = new Size(250, 37);
             panelCatalogo.TabIndex = 4;
@@ -305,7 +205,7 @@
             btnUsuarios.Text = "Usuarios";
             btnUsuarios.TextAlign = ContentAlignment.MiddleLeft;
             btnUsuarios.UseVisualStyleBackColor = true;
-            btnUsuarios.Click += btnUsuarios_Click;
+            btnUsuarios.Click += btnUsuarios_Click_1;
             // 
             // btnCatalogo
             // 
@@ -314,7 +214,7 @@
             btnCatalogo.FlatAppearance.BorderSize = 0;
             btnCatalogo.FlatAppearance.MouseDownBackColor = Color.FromArgb(194, 125, 0);
             btnCatalogo.FlatStyle = FlatStyle.Flat;
-            btnCatalogo.Location = new Point(0, 196);
+            btnCatalogo.Location = new Point(0, 100);
             btnCatalogo.Name = "btnCatalogo";
             btnCatalogo.Padding = new Padding(10, 0, 0, 0);
             btnCatalogo.Size = new Size(250, 29);
@@ -322,68 +222,7 @@
             btnCatalogo.Text = "Catalogo";
             btnCatalogo.TextAlign = ContentAlignment.MiddleLeft;
             btnCatalogo.UseVisualStyleBackColor = true;
-            btnCatalogo.Click += btnCatalogo_Click;
-            // 
-            // panelArchivo
-            // 
-            panelArchivo.BackColor = Color.FromArgb(21, 19, 21);
-            panelArchivo.Controls.Add(btnSalir);
-            panelArchivo.Controls.Add(btnCorreo);
-            panelArchivo.Dock = DockStyle.Top;
-            panelArchivo.Location = new Point(0, 129);
-            panelArchivo.Name = "panelArchivo";
-            panelArchivo.Size = new Size(250, 67);
-            panelArchivo.TabIndex = 2;
-            panelArchivo.Visible = false;
-            // 
-            // btnSalir
-            // 
-            btnSalir.Dock = DockStyle.Top;
-            btnSalir.FlatAppearance.BorderSize = 0;
-            btnSalir.FlatStyle = FlatStyle.Flat;
-            btnSalir.ForeColor = Color.FromArgb(238, 238, 238);
-            btnSalir.Location = new Point(0, 30);
-            btnSalir.Name = "btnSalir";
-            btnSalir.Padding = new Padding(35, 0, 0, 0);
-            btnSalir.Size = new Size(250, 30);
-            btnSalir.TabIndex = 1;
-            btnSalir.Text = "Salir";
-            btnSalir.TextAlign = ContentAlignment.MiddleLeft;
-            btnSalir.UseVisualStyleBackColor = true;
-            btnSalir.Click += btnSalir_Click;
-            // 
-            // btnCorreo
-            // 
-            btnCorreo.Dock = DockStyle.Top;
-            btnCorreo.FlatAppearance.BorderSize = 0;
-            btnCorreo.FlatStyle = FlatStyle.Flat;
-            btnCorreo.ForeColor = Color.FromArgb(238, 238, 238);
-            btnCorreo.Location = new Point(0, 0);
-            btnCorreo.Name = "btnCorreo";
-            btnCorreo.Padding = new Padding(35, 0, 0, 1);
-            btnCorreo.Size = new Size(250, 30);
-            btnCorreo.TabIndex = 0;
-            btnCorreo.Text = "Correo";
-            btnCorreo.TextAlign = ContentAlignment.MiddleLeft;
-            btnCorreo.UseVisualStyleBackColor = true;
-            btnCorreo.Click += btnCorreo_Click;
-            // 
-            // btnArchivo
-            // 
-            btnArchivo.Dock = DockStyle.Top;
-            btnArchivo.FlatAppearance.BorderColor = Color.FromArgb(238, 238, 238);
-            btnArchivo.FlatAppearance.BorderSize = 0;
-            btnArchivo.FlatAppearance.MouseDownBackColor = Color.FromArgb(194, 125, 0);
-            btnArchivo.FlatStyle = FlatStyle.Flat;
-            btnArchivo.Location = new Point(0, 100);
-            btnArchivo.Name = "btnArchivo";
-            btnArchivo.Padding = new Padding(10, 0, 0, 0);
-            btnArchivo.Size = new Size(250, 29);
-            btnArchivo.TabIndex = 1;
-            btnArchivo.Text = "Archivo";
-            btnArchivo.TextAlign = ContentAlignment.MiddleLeft;
-            btnArchivo.UseVisualStyleBackColor = true;
-            btnArchivo.Click += btnArchivo_Click;
+            btnCatalogo.Click += btnCatalogo_Click_1;
             // 
             // panelLogo
             // 
@@ -393,25 +232,39 @@
             panelLogo.Size = new Size(250, 100);
             panelLogo.TabIndex = 0;
             // 
+            // btnSalir2
+            // 
+            btnSalir2.Dock = DockStyle.Top;
+            btnSalir2.FlatAppearance.BorderColor = Color.FromArgb(238, 238, 238);
+            btnSalir2.FlatAppearance.BorderSize = 0;
+            btnSalir2.FlatAppearance.MouseDownBackColor = Color.FromArgb(194, 125, 0);
+            btnSalir2.FlatStyle = FlatStyle.Flat;
+            btnSalir2.Location = new Point(0, 333);
+            btnSalir2.Name = "btnSalir2";
+            btnSalir2.Padding = new Padding(10, 0, 0, 0);
+            btnSalir2.Size = new Size(250, 29);
+            btnSalir2.TabIndex = 11;
+            btnSalir2.Text = "Salir";
+            btnSalir2.TextAlign = ContentAlignment.MiddleLeft;
+            btnSalir2.UseVisualStyleBackColor = true;
+            // 
             // frm_menu_pincipal
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(238, 232, 231);
             ClientSize = new Size(914, 656);
-            Controls.Add(panelMenu);
+            Controls.Add(panelChildForm);
             Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
             Name = "frm_menu_pincipal";
             Text = "Menu Pincipal";
             WindowState = FormWindowState.Maximized;
-            Load += frm_menu_pincipal_Load;
+            panelChildForm.ResumeLayout(false);
             panelMenu.ResumeLayout(false);
-            panelConfiguraciones.ResumeLayout(false);
             panelReportes.ResumeLayout(false);
             panelOperaciones.ResumeLayout(false);
             panelCatalogo.ResumeLayout(false);
-            panelArchivo.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -420,13 +273,13 @@
             new frm_ventas().ShowDialog();
         }
 
-#endregion
+        #endregion
+
+        private Panel panelChildForm;
         private Panel panelMenu;
-        private Panel panelLogo;
-        private Panel panelArchivo;
-        private Button btnArchivo;
-        private Button btnSalir;
-        private Button btnCorreo;
+        private Panel panelReportes;
+        private Button btnVentas;
+        private Button btnReportes;
         private Panel panelOperaciones;
         private Button btnCompras;
         private Button button2;
@@ -434,14 +287,7 @@
         private Panel panelCatalogo;
         private Button btnUsuarios;
         private Button btnCatalogo;
-        private Button btnInventario;
-        private Panel panelConfiguraciones;
-        private Button btnCambiarContra;
-        private Button btnImpresora;
-        private Button btnConfiguraciones;
-        private Panel panelReportes;
-        private Button btnVentas;
-        private Button btnReportes;
+        private Panel panelLogo;
         private Button btnSalir2;
     }
 }
